@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <jmeterTestPlan version="1.2" properties="5.0" jmeter="5.2.1">
   <hashTree>
-    <TestPlan guiclass="TestPlanGui" testclass="TestPlan" testname="ATLAS APIs PERFOMANCE TESTING" enabled="true">
+    <TestPlan guiclass="TestPlanGui" testclass="TestPlan" testname="ATLAS APIs testing" enabled="true">
       <stringProp name="TestPlan.comments">portal + bank</stringProp>
       <boolProp name="TestPlan.functional_mode">false</boolProp>
       <boolProp name="TestPlan.tearDown_on_shutdown">true</boolProp>
@@ -27,13 +27,13 @@
         <stringProp name="HTTPSampler.response_timeout"></stringProp>
       </ConfigTestElement>
       <hashTree/>
-      <ConfigTestElement guiclass="HttpDefaultsGui" testclass="ConfigTestElement" testname="api (local)" enabled="true">
+      <ConfigTestElement guiclass="HttpDefaultsGui" testclass="ConfigTestElement" testname="api (stage)" enabled="false">
         <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" testname="User Defined Variables" enabled="true">
           <collectionProp name="Arguments.arguments"/>
         </elementProp>
-        <stringProp name="HTTPSampler.domain">local-eskubuntu2.sapfir.corp</stringProp>
+        <stringProp name="HTTPSampler.domain">webservice.uralsoccard.ru:9696</stringProp>
         <stringProp name="HTTPSampler.port"></stringProp>
-        <stringProp name="HTTPSampler.protocol">http</stringProp>
+        <stringProp name="HTTPSampler.protocol">https</stringProp>
         <stringProp name="HTTPSampler.contentEncoding"></stringProp>
         <stringProp name="HTTPSampler.path">/IP/API/1_0/</stringProp>
         <stringProp name="TestPlan.comments">ЕСК</stringProp>
@@ -42,13 +42,13 @@
         <stringProp name="HTTPSampler.response_timeout"></stringProp>
       </ConfigTestElement>
       <hashTree/>
-      <ConfigTestElement guiclass="HttpDefaultsGui" testclass="ConfigTestElement" testname="api (stage)" enabled="false">
+      <ConfigTestElement guiclass="HttpDefaultsGui" testclass="ConfigTestElement" testname="api (local костя) " enabled="true">
         <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" testname="User Defined Variables" enabled="true">
           <collectionProp name="Arguments.arguments"/>
         </elementProp>
-        <stringProp name="HTTPSampler.domain">webservice.uralsoccard.ru:9696</stringProp>
+        <stringProp name="HTTPSampler.domain">local-eskubuntu2.sapfir.corp</stringProp>
         <stringProp name="HTTPSampler.port"></stringProp>
-        <stringProp name="HTTPSampler.protocol">https</stringProp>
+        <stringProp name="HTTPSampler.protocol">http</stringProp>
         <stringProp name="HTTPSampler.contentEncoding"></stringProp>
         <stringProp name="HTTPSampler.path">/IP/API/1_0/</stringProp>
         <stringProp name="TestPlan.comments">ЕСК</stringProp>
