@@ -42,7 +42,7 @@
         <stringProp name="HTTPSampler.response_timeout"></stringProp>
       </ConfigTestElement>
       <hashTree/>
-      <ConfigTestElement guiclass="HttpDefaultsGui" testclass="ConfigTestElement" testname="api (prod)" enabled="true">
+      <ConfigTestElement guiclass="HttpDefaultsGui" testclass="ConfigTestElement" testname="api (prod)" enabled="false">
         <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" testname="User Defined Variables" enabled="true">
           <collectionProp name="Arguments.arguments"/>
         </elementProp>
@@ -57,7 +57,22 @@
         <stringProp name="HTTPSampler.response_timeout"></stringProp>
       </ConfigTestElement>
       <hashTree/>
-      <ConfigTestElement guiclass="HttpDefaultsGui" testclass="ConfigTestElement" testname="api (local костя) " enabled="false">
+      <ConfigTestElement guiclass="HttpDefaultsGui" testclass="ConfigTestElement" testname="api (prod) 9696" enabled="false">
+        <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" testname="User Defined Variables" enabled="true">
+          <collectionProp name="Arguments.arguments"/>
+        </elementProp>
+        <stringProp name="HTTPSampler.domain">webservice.uralsoccard.ru</stringProp>
+        <stringProp name="HTTPSampler.port">9696</stringProp>
+        <stringProp name="HTTPSampler.protocol">http</stringProp>
+        <stringProp name="HTTPSampler.contentEncoding"></stringProp>
+        <stringProp name="HTTPSampler.path">/IP/API/1_0/</stringProp>
+        <stringProp name="TestPlan.comments">ЕСК</stringProp>
+        <stringProp name="HTTPSampler.concurrentPool">6</stringProp>
+        <stringProp name="HTTPSampler.connect_timeout"></stringProp>
+        <stringProp name="HTTPSampler.response_timeout"></stringProp>
+      </ConfigTestElement>
+      <hashTree/>
+      <ConfigTestElement guiclass="HttpDefaultsGui" testclass="ConfigTestElement" testname="api (local костя) " enabled="true">
         <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" testname="User Defined Variables" enabled="true">
           <collectionProp name="Arguments.arguments"/>
         </elementProp>
@@ -322,6 +337,46 @@ https://docs.google.com/document/d/1Bv7t7HfmN6-FfEzdG_FiD3IYN5MZUwRjaj-GgCCrqlI/
         <hashTree/>
         <GenericController guiclass="LogicControllerGui" testclass="GenericController" testname="Automated testing (with SCV)" enabled="false"/>
         <hashTree>
+          <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="POST RegisterClientScanDoc" enabled="true">
+            <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" testname="User Defined Variables" enabled="true">
+              <collectionProp name="Arguments.arguments"/>
+            </elementProp>
+            <stringProp name="HTTPSampler.domain"></stringProp>
+            <stringProp name="HTTPSampler.port"></stringProp>
+            <stringProp name="HTTPSampler.protocol"></stringProp>
+            <stringProp name="HTTPSampler.contentEncoding"></stringProp>
+            <stringProp name="HTTPSampler.path">/Bank/API/1_0/RegisterClientScanDoc/</stringProp>
+            <stringProp name="HTTPSampler.method">POST</stringProp>
+            <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
+            <boolProp name="HTTPSampler.auto_redirects">false</boolProp>
+            <boolProp name="HTTPSampler.use_keepalive">true</boolProp>
+            <boolProp name="HTTPSampler.DO_MULTIPART_POST">false</boolProp>
+            <stringProp name="HTTPSampler.embedded_url_re"></stringProp>
+            <stringProp name="HTTPSampler.connect_timeout"></stringProp>
+            <stringProp name="HTTPSampler.response_timeout"></stringProp>
+            <stringProp name="TestPlan.comments">https://wiki.nposapfir.ru/doku.php?id=atlas_projects:usc_api_bank_register_client_scan_doc</stringProp>
+          </HTTPSamplerProxy>
+          <hashTree/>
+          <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="GET CheckClient" enabled="true">
+            <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" testname="User Defined Variables" enabled="true">
+              <collectionProp name="Arguments.arguments"/>
+            </elementProp>
+            <stringProp name="HTTPSampler.domain"></stringProp>
+            <stringProp name="HTTPSampler.port"></stringProp>
+            <stringProp name="HTTPSampler.protocol"></stringProp>
+            <stringProp name="HTTPSampler.contentEncoding"></stringProp>
+            <stringProp name="HTTPSampler.path">/Bank/API/1_0/CheckClient/</stringProp>
+            <stringProp name="HTTPSampler.method">GET</stringProp>
+            <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
+            <boolProp name="HTTPSampler.auto_redirects">false</boolProp>
+            <boolProp name="HTTPSampler.use_keepalive">true</boolProp>
+            <boolProp name="HTTPSampler.DO_MULTIPART_POST">false</boolProp>
+            <stringProp name="HTTPSampler.embedded_url_re"></stringProp>
+            <stringProp name="HTTPSampler.connect_timeout"></stringProp>
+            <stringProp name="HTTPSampler.response_timeout"></stringProp>
+            <stringProp name="TestPlan.comments">https://wiki.nposapfir.ru/doku.php?id=atlas_projects:usc_api_bank_check_client</stringProp>
+          </HTTPSamplerProxy>
+          <hashTree/>
           <GenericController guiclass="LogicControllerGui" testclass="GenericController" testname="Method Pack" enabled="true"/>
           <hashTree>
             <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="1. POST RegisterClient" enabled="true">
@@ -509,50 +564,10 @@ https://docs.google.com/document/d/1Bv7t7HfmN6-FfEzdG_FiD3IYN5MZUwRjaj-GgCCrqlI/
             </HTTPSamplerProxy>
             <hashTree/>
           </hashTree>
-          <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="POST RegisterClientScanDoc" enabled="true">
-            <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" testname="User Defined Variables" enabled="true">
-              <collectionProp name="Arguments.arguments"/>
-            </elementProp>
-            <stringProp name="HTTPSampler.domain"></stringProp>
-            <stringProp name="HTTPSampler.port"></stringProp>
-            <stringProp name="HTTPSampler.protocol"></stringProp>
-            <stringProp name="HTTPSampler.contentEncoding"></stringProp>
-            <stringProp name="HTTPSampler.path">/Bank/API/1_0/RegisterClientScanDoc/</stringProp>
-            <stringProp name="HTTPSampler.method">POST</stringProp>
-            <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
-            <boolProp name="HTTPSampler.auto_redirects">false</boolProp>
-            <boolProp name="HTTPSampler.use_keepalive">true</boolProp>
-            <boolProp name="HTTPSampler.DO_MULTIPART_POST">false</boolProp>
-            <stringProp name="HTTPSampler.embedded_url_re"></stringProp>
-            <stringProp name="HTTPSampler.connect_timeout"></stringProp>
-            <stringProp name="HTTPSampler.response_timeout"></stringProp>
-            <stringProp name="TestPlan.comments">https://wiki.nposapfir.ru/doku.php?id=atlas_projects:usc_api_bank_register_client_scan_doc</stringProp>
-          </HTTPSamplerProxy>
-          <hashTree/>
-          <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="GET CheckClient" enabled="true">
-            <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" testname="User Defined Variables" enabled="true">
-              <collectionProp name="Arguments.arguments"/>
-            </elementProp>
-            <stringProp name="HTTPSampler.domain"></stringProp>
-            <stringProp name="HTTPSampler.port"></stringProp>
-            <stringProp name="HTTPSampler.protocol"></stringProp>
-            <stringProp name="HTTPSampler.contentEncoding"></stringProp>
-            <stringProp name="HTTPSampler.path">/Bank/API/1_0/CheckClient/</stringProp>
-            <stringProp name="HTTPSampler.method">GET</stringProp>
-            <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
-            <boolProp name="HTTPSampler.auto_redirects">false</boolProp>
-            <boolProp name="HTTPSampler.use_keepalive">true</boolProp>
-            <boolProp name="HTTPSampler.DO_MULTIPART_POST">false</boolProp>
-            <stringProp name="HTTPSampler.embedded_url_re"></stringProp>
-            <stringProp name="HTTPSampler.connect_timeout"></stringProp>
-            <stringProp name="HTTPSampler.response_timeout"></stringProp>
-            <stringProp name="TestPlan.comments">https://wiki.nposapfir.ru/doku.php?id=atlas_projects:usc_api_bank_check_client</stringProp>
-          </HTTPSamplerProxy>
-          <hashTree/>
         </hashTree>
         <GenericController guiclass="LogicControllerGui" testclass="GenericController" testname="Manual Testing (no SCV)" enabled="true"/>
         <hashTree>
-          <GenericController guiclass="LogicControllerGui" testclass="GenericController" testname="GET CheckClient Tests" enabled="true">
+          <GenericController guiclass="LogicControllerGui" testclass="GenericController" testname="GET CheckClient Tests" enabled="false">
             <stringProp name="TestPlan.comments">https://wiki.nposapfir.ru/doku.php?id=atlas_projects:usc_api_bank_check_client</stringProp>
           </GenericController>
           <hashTree>
@@ -2050,13 +2065,13 @@ https://docs.google.com/document/d/1Bv7t7HfmN6-FfEzdG_FiD3IYN5MZUwRjaj-GgCCrqlI/
             </HTTPSamplerProxy>
             <hashTree/>
           </hashTree>
-          <GenericController guiclass="LogicControllerGui" testclass="GenericController" testname="POST RegisterClientScanDoc Tests" enabled="false"/>
+          <GenericController guiclass="LogicControllerGui" testclass="GenericController" testname="POST RegisterClientScanDoc Tests" enabled="true"/>
           <hashTree>
-            <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="СНИЛС нет. PNG." enabled="true">
+            <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="СНИЛС нет. PNG." enabled="false">
               <elementProp name="HTTPsampler.Files" elementType="HTTPFileArgs">
                 <collectionProp name="HTTPFileArgs.files">
-                  <elementProp name="D:\GitHub\jmeter2\fakepassport.jpg" elementType="HTTPFileArg">
-                    <stringProp name="File.path">D:\GitHub\jmeter2\fakepassport.jpg</stringProp>
+                  <elementProp name="B:\GitHub\jmeter\fakepassport.jpg" elementType="HTTPFileArg">
+                    <stringProp name="File.path">B:\GitHub\jmeter\fakepassport.jpg</stringProp>
                     <stringProp name="File.paramname"></stringProp>
                     <stringProp name="File.mimetype"></stringProp>
                   </elementProp>
@@ -2101,11 +2116,11 @@ https://docs.google.com/document/d/1Bv7t7HfmN6-FfEzdG_FiD3IYN5MZUwRjaj-GgCCrqlI/
               </HeaderManager>
               <hashTree/>
             </hashTree>
-            <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="&apos;ClientSNILS: &apos;4533553&apos;. PNG." enabled="true">
+            <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="&apos;ClientSNILS: &apos;4533553&apos;. PNG." enabled="false">
               <elementProp name="HTTPsampler.Files" elementType="HTTPFileArgs">
                 <collectionProp name="HTTPFileArgs.files">
-                  <elementProp name="D:\GitHub\jmeter2\fakepassport.jpg" elementType="HTTPFileArg">
-                    <stringProp name="File.path">D:\GitHub\jmeter2\fakepassport.jpg</stringProp>
+                  <elementProp name="B:\GitHub\jmeter\fakepassport.jpg" elementType="HTTPFileArg">
+                    <stringProp name="File.path">B:\GitHub\jmeter\fakepassport.jpg</stringProp>
                     <stringProp name="File.paramname"></stringProp>
                     <stringProp name="File.mimetype"></stringProp>
                   </elementProp>
@@ -2150,11 +2165,11 @@ https://docs.google.com/document/d/1Bv7t7HfmN6-FfEzdG_FiD3IYN5MZUwRjaj-GgCCrqlI/
               </HeaderManager>
               <hashTree/>
             </hashTree>
-            <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="ClientSNILS: 06171788574. Пусто." enabled="true">
+            <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="ClientSNILS: 06171788574. Пусто." enabled="false">
               <elementProp name="HTTPsampler.Files" elementType="HTTPFileArgs">
                 <collectionProp name="HTTPFileArgs.files">
-                  <elementProp name="D:\GitHub\jmeter2\fakepassport.jpg" elementType="HTTPFileArg">
-                    <stringProp name="File.path">D:\GitHub\jmeter2\fakepassport.jpg</stringProp>
+                  <elementProp name="B:\GitHub\jmeter\fakepassport.jpg" elementType="HTTPFileArg">
+                    <stringProp name="File.path">B:\GitHub\jmeter\fakepassport.jpg</stringProp>
                     <stringProp name="File.paramname"></stringProp>
                     <stringProp name="File.mimetype"></stringProp>
                   </elementProp>
@@ -2199,7 +2214,7 @@ https://docs.google.com/document/d/1Bv7t7HfmN6-FfEzdG_FiD3IYN5MZUwRjaj-GgCCrqlI/
               </HeaderManager>
               <hashTree/>
             </hashTree>
-            <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="&apos;ClientSNILS: 06171788574&apos;. DOC." enabled="true">
+            <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="&apos;ClientSNILS: 06171788574&apos;. DOC." enabled="false">
               <elementProp name="HTTPsampler.Files" elementType="HTTPFileArgs">
                 <collectionProp name="HTTPFileArgs.files">
                   <elementProp name="D:\GitHub\jmeter2\fakepassport.jpg" elementType="HTTPFileArg">
@@ -2297,7 +2312,7 @@ https://docs.google.com/document/d/1Bv7t7HfmN6-FfEzdG_FiD3IYN5MZUwRjaj-GgCCrqlI/
               </HeaderManager>
               <hashTree/>
             </hashTree>
-            <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="ClientSNILS: &apos;48750603815&apos;. PNG." enabled="true">
+            <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="ClientSNILS: &apos;48750603815&apos;. PNG." enabled="false">
               <elementProp name="HTTPsampler.Files" elementType="HTTPFileArgs">
                 <collectionProp name="HTTPFileArgs.files">
                   <elementProp name="D:\GitHub\jmeter2\fakepassport.jpg" elementType="HTTPFileArg">
@@ -2346,7 +2361,7 @@ https://docs.google.com/document/d/1Bv7t7HfmN6-FfEzdG_FiD3IYN5MZUwRjaj-GgCCrqlI/
               </HeaderManager>
               <hashTree/>
             </hashTree>
-            <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="ClientSNILS: &apos;48750603815&apos;. PNG." enabled="true">
+            <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="ClientSNILS: &apos;48750603815&apos;. PNG." enabled="false">
               <elementProp name="HTTPsampler.Files" elementType="HTTPFileArgs">
                 <collectionProp name="HTTPFileArgs.files">
                   <elementProp name="D:\GitHub\jmeter2\fakepassport.jpg" elementType="HTTPFileArg">
@@ -2395,7 +2410,7 @@ https://docs.google.com/document/d/1Bv7t7HfmN6-FfEzdG_FiD3IYN5MZUwRjaj-GgCCrqlI/
               </HeaderManager>
               <hashTree/>
             </hashTree>
-            <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="ClientSNILS: &apos;48750603815&apos;. JPG." enabled="true">
+            <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="ClientSNILS: &apos;48750603815&apos;. JPG." enabled="false">
               <elementProp name="HTTPsampler.Files" elementType="HTTPFileArgs">
                 <collectionProp name="HTTPFileArgs.files">
                   <elementProp name="D:\GitHub\jmeter2\fakepassport.jpg" elementType="HTTPFileArg">
@@ -2444,7 +2459,7 @@ https://docs.google.com/document/d/1Bv7t7HfmN6-FfEzdG_FiD3IYN5MZUwRjaj-GgCCrqlI/
               </HeaderManager>
               <hashTree/>
             </hashTree>
-            <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="ClientSNILS: &apos;48750603815&apos;.PNG." enabled="true">
+            <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="ClientSNILS: &apos;48750603815&apos;.PNG." enabled="false">
               <elementProp name="HTTPsampler.Files" elementType="HTTPFileArgs">
                 <collectionProp name="HTTPFileArgs.files">
                   <elementProp name="D:\GitHub\jmeter2\fakepassport.jpg" elementType="HTTPFileArg">
