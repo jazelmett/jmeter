@@ -42,7 +42,7 @@
         <stringProp name="HTTPSampler.response_timeout"></stringProp>
       </ConfigTestElement>
       <hashTree/>
-      <ConfigTestElement guiclass="HttpDefaultsGui" testclass="ConfigTestElement" testname="api (prod)" enabled="false">
+      <ConfigTestElement guiclass="HttpDefaultsGui" testclass="ConfigTestElement" testname="api (prod)" enabled="true">
         <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" testname="User Defined Variables" enabled="true">
           <collectionProp name="Arguments.arguments"/>
         </elementProp>
@@ -57,7 +57,7 @@
         <stringProp name="HTTPSampler.response_timeout"></stringProp>
       </ConfigTestElement>
       <hashTree/>
-      <ConfigTestElement guiclass="HttpDefaultsGui" testclass="ConfigTestElement" testname="api (local костя) " enabled="true">
+      <ConfigTestElement guiclass="HttpDefaultsGui" testclass="ConfigTestElement" testname="api (local костя) " enabled="false">
         <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" testname="User Defined Variables" enabled="true">
           <collectionProp name="Arguments.arguments"/>
         </elementProp>
@@ -320,7 +320,7 @@ https://docs.google.com/document/d/1Bv7t7HfmN6-FfEzdG_FiD3IYN5MZUwRjaj-GgCCrqlI/
           </collectionProp>
         </HeaderManager>
         <hashTree/>
-        <GenericController guiclass="LogicControllerGui" testclass="GenericController" testname="Automated testing (with SCV)" enabled="true"/>
+        <GenericController guiclass="LogicControllerGui" testclass="GenericController" testname="Automated testing (with SCV)" enabled="false"/>
         <hashTree>
           <GenericController guiclass="LogicControllerGui" testclass="GenericController" testname="Method Pack" enabled="true"/>
           <hashTree>
@@ -677,7 +677,7 @@ https://docs.google.com/document/d/1Bv7t7HfmN6-FfEzdG_FiD3IYN5MZUwRjaj-GgCCrqlI/
               <hashTree/>
             </hashTree>
           </hashTree>
-          <GenericController guiclass="LogicControllerGui" testclass="GenericController" testname="POST RegisterClient Tests" enabled="true"/>
+          <GenericController guiclass="LogicControllerGui" testclass="GenericController" testname="POST RegisterClient Tests" enabled="false"/>
           <hashTree>
             <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="JSON не по схеме." enabled="true">
               <boolProp name="HTTPSampler.postBodyRaw">true</boolProp>
@@ -976,7 +976,7 @@ https://docs.google.com/document/d/1Bv7t7HfmN6-FfEzdG_FiD3IYN5MZUwRjaj-GgCCrqlI/
             </HTTPSamplerProxy>
             <hashTree/>
           </hashTree>
-          <GenericController guiclass="LogicControllerGui" testclass="GenericController" testname="PUT RegisterClient Tests" enabled="true"/>
+          <GenericController guiclass="LogicControllerGui" testclass="GenericController" testname="PUT RegisterClient Tests" enabled="false"/>
           <hashTree>
             <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="JSON не по схеме." enabled="true">
               <boolProp name="HTTPSampler.postBodyRaw">true</boolProp>
@@ -1341,7 +1341,7 @@ https://docs.google.com/document/d/1Bv7t7HfmN6-FfEzdG_FiD3IYN5MZUwRjaj-GgCCrqlI/
             </HTTPSamplerProxy>
             <hashTree/>
           </hashTree>
-          <GenericController guiclass="LogicControllerGui" testclass="GenericController" testname="POST RegisterOrderClientCard Tests" enabled="true"/>
+          <GenericController guiclass="LogicControllerGui" testclass="GenericController" testname="POST RegisterOrderClientCard Tests" enabled="false"/>
           <hashTree>
             <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="JSON не по схеме." enabled="true">
               <boolProp name="HTTPSampler.postBodyRaw">true</boolProp>
@@ -1586,7 +1586,7 @@ https://docs.google.com/document/d/1Bv7t7HfmN6-FfEzdG_FiD3IYN5MZUwRjaj-GgCCrqlI/
             </HTTPSamplerProxy>
             <hashTree/>
           </hashTree>
-          <GenericController guiclass="LogicControllerGui" testclass="GenericController" testname="POST BlockCards Tests" enabled="true"/>
+          <GenericController guiclass="LogicControllerGui" testclass="GenericController" testname="POST BlockCards Tests" enabled="false"/>
           <hashTree>
             <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="JSON не по схеме. Недопустимые значения полей" enabled="true">
               <boolProp name="HTTPSampler.postBodyRaw">true</boolProp>
@@ -1911,7 +1911,7 @@ https://docs.google.com/document/d/1Bv7t7HfmN6-FfEzdG_FiD3IYN5MZUwRjaj-GgCCrqlI/
             </HTTPSamplerProxy>
             <hashTree/>
           </hashTree>
-          <GenericController guiclass="LogicControllerGui" testclass="GenericController" testname="POST BlockClients Tests" enabled="true"/>
+          <GenericController guiclass="LogicControllerGui" testclass="GenericController" testname="POST BlockClients Tests" enabled="false"/>
           <hashTree>
             <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="JSON не по схеме." enabled="true">
               <boolProp name="HTTPSampler.postBodyRaw">true</boolProp>
@@ -2050,7 +2050,7 @@ https://docs.google.com/document/d/1Bv7t7HfmN6-FfEzdG_FiD3IYN5MZUwRjaj-GgCCrqlI/
             </HTTPSamplerProxy>
             <hashTree/>
           </hashTree>
-          <GenericController guiclass="LogicControllerGui" testclass="GenericController" testname="POST RegisterClientScanDoc Tests" enabled="true"/>
+          <GenericController guiclass="LogicControllerGui" testclass="GenericController" testname="POST RegisterClientScanDoc Tests" enabled="false"/>
           <hashTree>
             <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="СНИЛС нет. PNG." enabled="true">
               <elementProp name="HTTPsampler.Files" elementType="HTTPFileArgs">
