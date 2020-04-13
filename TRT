@@ -1,64 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testResults version="1.2">
-<httpSample t="14" it="0" lt="14" ct="3" ts="1586765959023" s="false" lb="Корректный СНИЛС. Клиент в БД." rc="404" rm="Not Found" tn="BANK API 08.04.2020 1-1" dt="" by="99" sby="256" ng="1" na="1">
-  <assertionResult>
-    <name>Response Code is 200</name>
-    <failure>true</failure>
-    <error>false</error>
-    <failureMessage>Test failed: code expected to equal /
-
-****** received  : [[[404]]]
-
-****** comparison: [[[200]]]
-
-/</failureMessage>
-  </assertionResult>
-  <java.net.URL>http://webservice.uralsoccard.ru:9698/Bank/API/1_0/CheckClient/48750603815</java.net.URL>
-</httpSample>
-<httpSample t="9" it="0" lt="9" ct="0" ts="1586765959038" s="false" lb="Некорректный СНИЛС" rc="404" rm="Not Found" tn="BANK API 08.04.2020 1-1" dt="" by="99" sby="253" ng="1" na="1">
-  <assertionResult>
-    <name>Response Code is 400</name>
-    <failure>true</failure>
-    <error>false</error>
-    <failureMessage>Test failed: code expected to equal /
-
-****** received  : 40[[[4]]]
-
-****** comparison: 40[[[0]]]
-
-/</failureMessage>
-  </assertionResult>
-  <java.net.URL>http://webservice.uralsoccard.ru:9698/Bank/API/1_0/CheckClient/70185388</java.net.URL>
-</httpSample>
-<httpSample t="12" it="0" lt="12" ct="0" ts="1586765959049" s="false" lb="Клиента нет в системе" rc="404" rm="Not Found" tn="BANK API 08.04.2020 1-1" dt="" by="99" sby="256" ng="1" na="1">
-  <assertionResult>
-    <name>Response Code is 400</name>
-    <failure>true</failure>
-    <error>false</error>
-    <failureMessage>Test failed: code expected to equal /
-
-****** received  : 40[[[4]]]
-
-****** comparison: 40[[[0]]]
-
-/</failureMessage>
-  </assertionResult>
-  <java.net.URL>http://webservice.uralsoccard.ru:9698/Bank/API/1_0/CheckClient/70185388801</java.net.URL>
-</httpSample>
-<httpSample t="7" it="0" lt="7" ct="0" ts="1586765959062" s="false" lb="Клиент с расторгнутым контрактом" rc="404" rm="Not Found" tn="BANK API 08.04.2020 1-1" dt="" by="99" sby="256" ng="1" na="1">
-  <assertionResult>
-    <name>Response Code is 200</name>
-    <failure>true</failure>
-    <error>false</error>
-    <failureMessage>Test failed: code expected to equal /
-
-****** received  : [[[404]]]
-
-****** comparison: [[[200]]]
-
-/</failureMessage>
-  </assertionResult>
-  <java.net.URL>http://webservice.uralsoccard.ru:9698/Bank/API/1_0/CheckClient/27730246173</java.net.URL>
+<httpSample t="2014" it="0" lt="0" ct="2014" ts="1586771173051" s="false" lb="&apos;ClientSNILS: 06171788574&apos;. PNG." rc="Non HTTP response code: org.apache.http.conn.HttpHostConnectException" rm="Non HTTP response message: Connect to 127.0.0.1:8888 [/127.0.0.1] failed: Connection refused: connect" tn="BANK API 08.04.2020 1-1" dt="text" by="2705" sby="0" ng="1" na="1">
+  <java.net.URL>http://webservice.uralsoccard.ru:9696/Bank/API/1_0/RegisterClientScanDoc/</java.net.URL>
 </httpSample>
 
 </testResults>
