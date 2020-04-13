@@ -1,0 +1,283 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testResults version="1.2">
+<httpSample t="2005" it="0" lt="0" ct="2005" ts="1586763284645" s="false" lb="1. POST RegisterClient" rc="Non HTTP response code: org.apache.http.conn.HttpHostConnectException" rm="Non HTTP response message: Connect to 127.0.0.1:8888 [/127.0.0.1] failed: Connection refused: connect" tn="BANK API 08.04.2020 1-1" dt="text" by="2705" sby="0" ng="1" na="1">
+  <java.net.URL>http://local-eskubuntu2.sapfir.corp/Bank/API/1_0/RegisterClient/</java.net.URL>
+</httpSample>
+<httpSample t="3" it="0" lt="0" ct="3" ts="1586763286653" s="false" lb="2. PUT RegisterClient" rc="Non HTTP response code: java.net.UnknownHostException" rm="Non HTTP response message: local-eskubuntu2.sapfir.corp" tn="BANK API 08.04.2020 1-1" dt="text" by="2305" sby="0" ng="1" na="1">
+  <java.net.URL>http://local-eskubuntu2.sapfir.corp/Bank/API/1_0/RegisterClient/</java.net.URL>
+</httpSample>
+<httpSample t="1" it="0" lt="0" ct="1" ts="1586763286659" s="false" lb="3. POST RegisterOrderClientCard" rc="Non HTTP response code: java.net.UnknownHostException" rm="Non HTTP response message: local-eskubuntu2.sapfir.corp" tn="BANK API 08.04.2020 1-1" dt="text" by="2109" sby="0" ng="1" na="1">
+  <java.net.URL>http://local-eskubuntu2.sapfir.corp/Bank/API/1_0/CheckClient/</java.net.URL>
+</httpSample>
+<httpSample t="0" it="0" lt="0" ct="0" ts="1586763286661" s="false" lb="4. POST BlockCards" rc="Non HTTP response code: java.net.UnknownHostException" rm="Non HTTP response message: local-eskubuntu2.sapfir.corp" tn="BANK API 08.04.2020 1-1" dt="text" by="2109" sby="0" ng="1" na="1">
+  <java.net.URL>http://local-eskubuntu2.sapfir.corp/Bank/API/1_0/BlockCards/</java.net.URL>
+</httpSample>
+<httpSample t="0" it="0" lt="0" ct="0" ts="1586763286662" s="false" lb="5. POST BlockClients" rc="Non HTTP response code: java.net.UnknownHostException" rm="Non HTTP response message: local-eskubuntu2.sapfir.corp" tn="BANK API 08.04.2020 1-1" dt="text" by="2109" sby="0" ng="1" na="1">
+  <java.net.URL>http://local-eskubuntu2.sapfir.corp/Bank/API/1_0/BlockClients</java.net.URL>
+</httpSample>
+<httpSample t="0" it="0" lt="0" ct="0" ts="1586763286663" s="false" lb="POST RegisterClientScanDoc" rc="Non HTTP response code: java.net.UnknownHostException" rm="Non HTTP response message: local-eskubuntu2.sapfir.corp" tn="BANK API 08.04.2020 1-1" dt="text" by="2109" sby="0" ng="1" na="1">
+  <java.net.URL>http://local-eskubuntu2.sapfir.corp/Bank/API/1_0/RegisterClientScanDoc/</java.net.URL>
+</httpSample>
+<httpSample t="1" it="0" lt="0" ct="0" ts="1586763286664" s="false" lb="GET CheckClient" rc="Non HTTP response code: java.net.UnknownHostException" rm="Non HTTP response message: local-eskubuntu2.sapfir.corp" tn="BANK API 08.04.2020 1-1" dt="text" by="2109" sby="0" ng="1" na="1">
+  <java.net.URL>http://local-eskubuntu2.sapfir.corp/Bank/API/1_0/CheckClient/</java.net.URL>
+</httpSample>
+<httpSample t="1" it="0" lt="0" ct="0" ts="1586763286665" s="false" lb="Корректный СНИЛС. Клиент в БД." rc="Non HTTP response code: java.net.UnknownHostException" rm="Non HTTP response message: local-eskubuntu2.sapfir.corp" tn="BANK API 08.04.2020 1-1" dt="text" by="2109" sby="0" ng="1" na="1">
+  <assertionResult>
+    <name>Response Code is 200</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Test failed: code expected to equal /
+
+****** received  : [[[Non HTTP response code: java.net.UnknownHostException]]]
+
+****** comparison: [[[200                                                  ]]]
+
+/</failureMessage>
+  </assertionResult>
+  <java.net.URL>http://local-eskubuntu2.sapfir.corp/Bank/API/1_0/CheckClient/48750603815</java.net.URL>
+</httpSample>
+<httpSample t="1" it="0" lt="0" ct="1" ts="1586763286666" s="false" lb="Некорректный СНИЛС" rc="Non HTTP response code: java.net.UnknownHostException" rm="Non HTTP response message: local-eskubuntu2.sapfir.corp" tn="BANK API 08.04.2020 1-1" dt="text" by="2109" sby="0" ng="1" na="1">
+  <assertionResult>
+    <name>Response Code is 400</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Test failed: code expected to equal /
+
+****** received  : [[[Non HTTP response code: java.net.UnknownHostException]]]
+
+****** comparison: [[[400                                                  ]]]
+
+/</failureMessage>
+  </assertionResult>
+  <java.net.URL>http://local-eskubuntu2.sapfir.corp/Bank/API/1_0/CheckClient/70185388</java.net.URL>
+</httpSample>
+<httpSample t="0" it="0" lt="0" ct="0" ts="1586763286668" s="false" lb="Клиента нет в системе" rc="Non HTTP response code: java.net.UnknownHostException" rm="Non HTTP response message: local-eskubuntu2.sapfir.corp" tn="BANK API 08.04.2020 1-1" dt="text" by="2109" sby="0" ng="1" na="1">
+  <assertionResult>
+    <name>Response Code is 400</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Test failed: code expected to equal /
+
+****** received  : [[[Non HTTP response code: java.net.UnknownHostException]]]
+
+****** comparison: [[[400                                                  ]]]
+
+/</failureMessage>
+  </assertionResult>
+  <java.net.URL>http://local-eskubuntu2.sapfir.corp/Bank/API/1_0/CheckClient/70185388801</java.net.URL>
+</httpSample>
+<httpSample t="1" it="0" lt="0" ct="1" ts="1586763286669" s="false" lb="Клиент с расторгнутым контрактом" rc="Non HTTP response code: java.net.UnknownHostException" rm="Non HTTP response message: local-eskubuntu2.sapfir.corp" tn="BANK API 08.04.2020 1-1" dt="text" by="2109" sby="0" ng="1" na="1">
+  <assertionResult>
+    <name>Response Code is 200</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Test failed: code expected to equal /
+
+****** received  : [[[Non HTTP response code: java.net.UnknownHostException]]]
+
+****** comparison: [[[200                                                  ]]]
+
+/</failureMessage>
+  </assertionResult>
+  <java.net.URL>http://local-eskubuntu2.sapfir.corp/Bank/API/1_0/CheckClient/27730246173</java.net.URL>
+</httpSample>
+<httpSample t="0" it="0" lt="0" ct="0" ts="1586763286671" s="false" lb="JSON не по схеме." rc="Non HTTP response code: java.net.UnknownHostException" rm="Non HTTP response message: local-eskubuntu2.sapfir.corp" tn="BANK API 08.04.2020 1-1" dt="text" by="2109" sby="0" ng="1" na="1">
+  <assertionResult>
+    <name>Response Code is 400</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Test failed: code expected to equal /
+
+****** received  : [[[Non HTTP response code: java.net.UnknownHostException]]]
+
+****** comparison: [[[400                                                  ]]]
+
+/</failureMessage>
+  </assertionResult>
+  <java.net.URL>http://local-eskubuntu2.sapfir.corp/Bank/API/1_0/RegisterClient/</java.net.URL>
+</httpSample>
+<httpSample t="0" it="0" lt="0" ct="0" ts="1586763286672" s="false" lb="СНИЛС нет в БД. Уникальные Email, Phone,  Passport/Num" rc="Non HTTP response code: java.net.UnknownHostException" rm="Non HTTP response message: local-eskubuntu2.sapfir.corp" tn="BANK API 08.04.2020 1-1" dt="text" by="2109" sby="0" ng="1" na="1">
+  <java.net.URL>http://local-eskubuntu2.sapfir.corp/Bank/API/1_0/RegisterClient/</java.net.URL>
+</httpSample>
+<httpSample t="1" it="0" lt="0" ct="1" ts="1586763286672" s="false" lb="СНИЛС нет в БД. Реквизиты не уникальные." rc="Non HTTP response code: java.net.UnknownHostException" rm="Non HTTP response message: local-eskubuntu2.sapfir.corp" tn="BANK API 08.04.2020 1-1" dt="text" by="2109" sby="0" ng="1" na="1">
+  <java.net.URL>http://local-eskubuntu2.sapfir.corp/Bank/API/1_0/RegisterClient/</java.net.URL>
+</httpSample>
+<httpSample t="0" it="0" lt="0" ct="0" ts="1586763286673" s="false" lb="СНИЛС есть в БД. Попытка повторной регистрации." rc="Non HTTP response code: java.net.UnknownHostException" rm="Non HTTP response message: local-eskubuntu2.sapfir.corp" tn="BANK API 08.04.2020 1-1" dt="text" by="2109" sby="0" ng="1" na="1">
+  <java.net.URL>http://local-eskubuntu2.sapfir.corp/Bank/API/1_0/RegisterClient/</java.net.URL>
+</httpSample>
+<httpSample t="0" it="0" lt="0" ct="0" ts="1586763286674" s="false" lb="Неуникальный паспорт указан через пробел." rc="Non HTTP response code: java.net.UnknownHostException" rm="Non HTTP response message: local-eskubuntu2.sapfir.corp" tn="BANK API 08.04.2020 1-1" dt="text" by="2109" sby="0" ng="1" na="1">
+  <assertionResult>
+    <name>Response Code is 400</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Test failed: code expected to equal /
+
+****** received  : [[[Non HTTP response code: java.net.UnknownHostException]]]
+
+****** comparison: [[[400                                                  ]]]
+
+/</failureMessage>
+  </assertionResult>
+  <java.net.URL>http://local-eskubuntu2.sapfir.corp/Bank/API/1_0/RegisterClient/</java.net.URL>
+</httpSample>
+<httpSample t="0" it="0" lt="0" ct="0" ts="1586763286675" s="false" lb="Невалидные реквизиты" rc="Non HTTP response code: java.net.UnknownHostException" rm="Non HTTP response message: local-eskubuntu2.sapfir.corp" tn="BANK API 08.04.2020 1-1" dt="text" by="2109" sby="0" ng="1" na="1">
+  <java.net.URL>http://local-eskubuntu2.sapfir.corp/Bank/API/1_0/RegisterClient/</java.net.URL>
+</httpSample>
+<httpSample t="0" it="0" lt="0" ct="0" ts="1586763286676" s="false" lb="JSON не по схеме." rc="Non HTTP response code: java.net.UnknownHostException" rm="Non HTTP response message: local-eskubuntu2.sapfir.corp" tn="BANK API 08.04.2020 1-1" dt="text" by="2109" sby="0" ng="1" na="1">
+  <assertionResult>
+    <name>Response Code is 400</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Test failed: code expected to equal /
+
+****** received  : [[[Non HTTP response code: java.net.UnknownHostException]]]
+
+****** comparison: [[[400                                                  ]]]
+
+/</failureMessage>
+  </assertionResult>
+  <java.net.URL>http://local-eskubuntu2.sapfir.corp/Bank/API/1_0/RegisterClient/</java.net.URL>
+</httpSample>
+<httpSample t="1" it="0" lt="0" ct="0" ts="1586763286676" s="false" lb="СНИЛС нет в БД." rc="Non HTTP response code: java.net.UnknownHostException" rm="Non HTTP response message: local-eskubuntu2.sapfir.corp" tn="BANK API 08.04.2020 1-1" dt="text" by="2109" sby="0" ng="1" na="1">
+  <assertionResult>
+    <name>Response Code is 400</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Test failed: code expected to equal /
+
+****** received  : [[[Non HTTP response code: java.net.UnknownHostException]]]
+
+****** comparison: [[[400                                                  ]]]
+
+/</failureMessage>
+  </assertionResult>
+  <java.net.URL>http://local-eskubuntu2.sapfir.corp/Bank/API/1_0/RegisterClient/</java.net.URL>
+</httpSample>
+<httpSample t="0" it="0" lt="0" ct="0" ts="1586763286677" s="false" lb="СНИЛС есть в БД. Поля которые не должны быть изменены с помощью PUT." rc="Non HTTP response code: java.net.UnknownHostException" rm="Non HTTP response message: local-eskubuntu2.sapfir.corp" tn="BANK API 08.04.2020 1-1" dt="text" by="2109" sby="0" ng="1" na="1">
+  <assertionResult>
+    <name>Response Code is 200</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Test failed: code expected to equal /
+
+****** received  : [[[Non HTTP response code: java.net.UnknownHostException]]]
+
+****** comparison: [[[200                                                  ]]]
+
+/</failureMessage>
+  </assertionResult>
+  <java.net.URL>http://local-eskubuntu2.sapfir.corp/Bank/API/1_0/RegisterClient/</java.net.URL>
+</httpSample>
+<httpSample t="0" it="0" lt="0" ct="0" ts="1586763286678" s="false" lb="Ошибка с созданием ревизий в БД." rc="Non HTTP response code: java.net.UnknownHostException" rm="Non HTTP response message: local-eskubuntu2.sapfir.corp" tn="BANK API 08.04.2020 1-1" dt="text" by="2109" sby="0" ng="1" na="1">
+  <assertionResult>
+    <name>Response Code is 200</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Test failed: code expected to equal /
+
+****** received  : [[[Non HTTP response code: java.net.UnknownHostException]]]
+
+****** comparison: [[[200                                                  ]]]
+
+/</failureMessage>
+  </assertionResult>
+  <java.net.URL>http://local-eskubuntu2.sapfir.corp/Bank/API/1_0/RegisterClient/</java.net.URL>
+</httpSample>
+<httpSample t="0" it="0" lt="0" ct="0" ts="1586763286679" s="false" lb="Попытка обновить клиента другого банка." rc="Non HTTP response code: java.net.UnknownHostException" rm="Non HTTP response message: local-eskubuntu2.sapfir.corp" tn="BANK API 08.04.2020 1-1" dt="text" by="2109" sby="0" ng="1" na="1">
+  <assertionResult>
+    <name>Response Code is 400</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Test failed: code expected to equal /
+
+****** received  : [[[Non HTTP response code: java.net.UnknownHostException]]]
+
+****** comparison: [[[400                                                  ]]]
+
+/</failureMessage>
+  </assertionResult>
+  <java.net.URL>http://local-eskubuntu2.sapfir.corp/Bank/API/1_0/RegisterClient/</java.net.URL>
+</httpSample>
+<httpSample t="1" it="0" lt="0" ct="0" ts="1586763286679" s="false" lb="Невалидные реквизиты" rc="Non HTTP response code: java.net.UnknownHostException" rm="Non HTTP response message: local-eskubuntu2.sapfir.corp" tn="BANK API 08.04.2020 1-1" dt="text" by="2109" sby="0" ng="1" na="1">
+  <java.net.URL>http://local-eskubuntu2.sapfir.corp/Bank/API/1_0/RegisterClient/</java.net.URL>
+</httpSample>
+<httpSample t="0" it="0" lt="0" ct="0" ts="1586763286680" s="false" lb="JSON не по схеме." rc="Non HTTP response code: java.net.UnknownHostException" rm="Non HTTP response message: local-eskubuntu2.sapfir.corp" tn="BANK API 08.04.2020 1-1" dt="text" by="2109" sby="0" ng="1" na="1">
+  <java.net.URL>http://local-eskubuntu2.sapfir.corp/Bank/API/1_0/CheckClient/</java.net.URL>
+</httpSample>
+<httpSample t="1" it="0" lt="0" ct="1" ts="1586763286680" s="false" lb="Невалидные реквизиты." rc="Non HTTP response code: java.net.UnknownHostException" rm="Non HTTP response message: local-eskubuntu2.sapfir.corp" tn="BANK API 08.04.2020 1-1" dt="text" by="2109" sby="0" ng="1" na="1">
+  <java.net.URL>http://local-eskubuntu2.sapfir.corp/Bank/API/1_0/CheckClient/</java.net.URL>
+</httpSample>
+<httpSample t="0" it="0" lt="0" ct="0" ts="1586763286681" s="false" lb="Карты нет в БД." rc="Non HTTP response code: java.net.UnknownHostException" rm="Non HTTP response message: local-eskubuntu2.sapfir.corp" tn="BANK API 08.04.2020 1-1" dt="text" by="2109" sby="0" ng="1" na="1">
+  <java.net.URL>http://local-eskubuntu2.sapfir.corp/Bank/API/1_0/CheckClient/</java.net.URL>
+</httpSample>
+<httpSample t="0" it="0" lt="0" ct="0" ts="1586763286682" s="false" lb="Карта есть, но у другого банка." rc="Non HTTP response code: java.net.UnknownHostException" rm="Non HTTP response message: local-eskubuntu2.sapfir.corp" tn="BANK API 08.04.2020 1-1" dt="text" by="2109" sby="0" ng="1" na="1">
+  <java.net.URL>http://local-eskubuntu2.sapfir.corp/Bank/API/1_0/CheckClient/</java.net.URL>
+</httpSample>
+<httpSample t="0" it="0" lt="0" ct="0" ts="1586763286683" s="false" lb="Карта уже выдана." rc="Non HTTP response code: java.net.UnknownHostException" rm="Non HTTP response message: local-eskubuntu2.sapfir.corp" tn="BANK API 08.04.2020 1-1" dt="text" by="2109" sby="0" ng="1" na="1">
+  <java.net.URL>http://local-eskubuntu2.sapfir.corp/Bank/API/1_0/CheckClient/</java.net.URL>
+</httpSample>
+<httpSample t="0" it="0" lt="0" ct="0" ts="1586763286683" s="false" lb="Карта заблокирована." rc="Non HTTP response code: java.net.UnknownHostException" rm="Non HTTP response message: local-eskubuntu2.sapfir.corp" tn="BANK API 08.04.2020 1-1" dt="text" by="2109" sby="0" ng="1" na="1">
+  <java.net.URL>http://local-eskubuntu2.sapfir.corp/Bank/API/1_0/CheckClient/</java.net.URL>
+</httpSample>
+<httpSample t="0" it="0" lt="0" ct="0" ts="1586763286684" s="false" lb="JSON не по схеме. Недопустимые значения полей" rc="Non HTTP response code: java.net.UnknownHostException" rm="Non HTTP response message: local-eskubuntu2.sapfir.corp" tn="BANK API 08.04.2020 1-1" dt="text" by="2109" sby="0" ng="1" na="1">
+  <java.net.URL>http://local-eskubuntu2.sapfir.corp/Bank/API/1_0/BlockCards/</java.net.URL>
+</httpSample>
+<httpSample t="0" it="0" lt="0" ct="0" ts="1586763286685" s="false" lb="JSON не по схеме. Отсутствуют обязательные поля." rc="Non HTTP response code: java.net.UnknownHostException" rm="Non HTTP response message: local-eskubuntu2.sapfir.corp" tn="BANK API 08.04.2020 1-1" dt="text" by="2109" sby="0" ng="1" na="1">
+  <java.net.URL>http://local-eskubuntu2.sapfir.corp/Bank/API/1_0/BlockCards/</java.net.URL>
+</httpSample>
+<httpSample t="1" it="0" lt="0" ct="1" ts="1586763286685" s="false" lb="JSON не по схеме. Одно поле повторяется несколько раз." rc="Non HTTP response code: java.net.UnknownHostException" rm="Non HTTP response message: local-eskubuntu2.sapfir.corp" tn="BANK API 08.04.2020 1-1" dt="text" by="2109" sby="0" ng="1" na="1">
+  <java.net.URL>http://local-eskubuntu2.sapfir.corp/Bank/API/1_0/BlockCards/</java.net.URL>
+</httpSample>
+<httpSample t="0" it="0" lt="0" ct="0" ts="1586763286686" s="false" lb="JSON не по схеме." rc="Non HTTP response code: java.net.UnknownHostException" rm="Non HTTP response message: local-eskubuntu2.sapfir.corp" tn="BANK API 08.04.2020 1-1" dt="text" by="2109" sby="0" ng="1" na="1">
+  <java.net.URL>http://local-eskubuntu2.sapfir.corp/Bank/API/1_0/BlockCards/</java.net.URL>
+</httpSample>
+<httpSample t="0" it="0" lt="0" ct="0" ts="1586763286687" s="false" lb="Карты нет в БД." rc="Non HTTP response code: java.net.UnknownHostException" rm="Non HTTP response message: local-eskubuntu2.sapfir.corp" tn="BANK API 08.04.2020 1-1" dt="text" by="2109" sby="0" ng="1" na="1">
+  <java.net.URL>http://local-eskubuntu2.sapfir.corp/Bank/API/1_0/BlockCards/</java.net.URL>
+</httpSample>
+<httpSample t="1" it="0" lt="0" ct="1" ts="1586763286687" s="false" lb="Карта заблокирована" rc="Non HTTP response code: java.net.UnknownHostException" rm="Non HTTP response message: local-eskubuntu2.sapfir.corp" tn="BANK API 08.04.2020 1-1" dt="text" by="2109" sby="0" ng="1" na="1">
+  <java.net.URL>http://local-eskubuntu2.sapfir.corp/Bank/API/1_0/BlockCards/</java.net.URL>
+</httpSample>
+<httpSample t="0" it="0" lt="0" ct="0" ts="1586763286688" s="false" lb="Карта активная. но другого эмитента." rc="Non HTTP response code: java.net.UnknownHostException" rm="Non HTTP response message: local-eskubuntu2.sapfir.corp" tn="BANK API 08.04.2020 1-1" dt="text" by="2109" sby="0" ng="1" na="1">
+  <java.net.URL>http://local-eskubuntu2.sapfir.corp/Bank/API/1_0/BlockCards/</java.net.URL>
+</httpSample>
+<httpSample t="0" it="0" lt="0" ct="0" ts="1586763286689" s="false" lb="Карта корректная. Причина блокировки есть в БД." rc="Non HTTP response code: java.net.UnknownHostException" rm="Non HTTP response message: local-eskubuntu2.sapfir.corp" tn="BANK API 08.04.2020 1-1" dt="text" by="2109" sby="0" ng="1" na="1">
+  <java.net.URL>http://local-eskubuntu2.sapfir.corp/Bank/API/1_0/BlockCards/</java.net.URL>
+</httpSample>
+<httpSample t="0" it="0" lt="0" ct="0" ts="1586763286690" s="false" lb="Карта корректная. Причины блокировки нет в БД." rc="Non HTTP response code: java.net.UnknownHostException" rm="Non HTTP response message: local-eskubuntu2.sapfir.corp" tn="BANK API 08.04.2020 1-1" dt="text" by="2109" sby="0" ng="1" na="1">
+  <java.net.URL>http://local-eskubuntu2.sapfir.corp/Bank/API/1_0/BlockCards/</java.net.URL>
+</httpSample>
+<httpSample t="1" it="0" lt="0" ct="1" ts="1586763286690" s="false" lb="JSON не по схеме." rc="Non HTTP response code: java.net.UnknownHostException" rm="Non HTTP response message: local-eskubuntu2.sapfir.corp" tn="BANK API 08.04.2020 1-1" dt="text" by="2109" sby="0" ng="1" na="1">
+  <java.net.URL>http://local-eskubuntu2.sapfir.corp/Bank/API/1_0/BlockClients</java.net.URL>
+</httpSample>
+<httpSample t="0" it="0" lt="0" ct="0" ts="1586763286691" s="false" lb="СНИЛС нет в БД" rc="Non HTTP response code: java.net.UnknownHostException" rm="Non HTTP response message: local-eskubuntu2.sapfir.corp" tn="BANK API 08.04.2020 1-1" dt="text" by="2109" sby="0" ng="1" na="1">
+  <java.net.URL>http://local-eskubuntu2.sapfir.corp/Bank/API/1_0/BlockClients</java.net.URL>
+</httpSample>
+<httpSample t="0" it="0" lt="0" ct="0" ts="1586763286692" s="false" lb="у клиента нет договора с этим банком" rc="Non HTTP response code: java.net.UnknownHostException" rm="Non HTTP response message: local-eskubuntu2.sapfir.corp" tn="BANK API 08.04.2020 1-1" dt="text" by="2109" sby="0" ng="1" na="1">
+  <java.net.URL>http://local-eskubuntu2.sapfir.corp/Bank/API/1_0/BlockClients</java.net.URL>
+</httpSample>
+<httpSample t="1" it="0" lt="0" ct="1" ts="1586763286692" s="false" lb="у клиента есть договор, карта неактивна" rc="Non HTTP response code: java.net.UnknownHostException" rm="Non HTTP response message: local-eskubuntu2.sapfir.corp" tn="BANK API 08.04.2020 1-1" dt="text" by="2109" sby="0" ng="1" na="1">
+  <java.net.URL>http://local-eskubuntu2.sapfir.corp/Bank/API/1_0/BlockClients</java.net.URL>
+</httpSample>
+<httpSample t="0" it="0" lt="0" ct="0" ts="1586763286693" s="false" lb="у клиента есть договор, карта активна" rc="Non HTTP response code: java.net.UnknownHostException" rm="Non HTTP response message: local-eskubuntu2.sapfir.corp" tn="BANK API 08.04.2020 1-1" dt="text" by="2109" sby="0" ng="1" na="1">
+  <java.net.URL>http://local-eskubuntu2.sapfir.corp/Bank/API/1_0/BlockClients</java.net.URL>
+</httpSample>
+<httpSample t="2005" it="0" lt="0" ct="2005" ts="1586763286694" s="false" lb="СНИЛС нет. PNG." rc="Non HTTP response code: org.apache.http.conn.HttpHostConnectException" rm="Non HTTP response message: Connect to 127.0.0.1:8888 [/127.0.0.1] failed: Connection refused: connect" tn="BANK API 08.04.2020 1-1" dt="text" by="2705" sby="0" ng="1" na="1">
+  <java.net.URL>http://local-eskubuntu2.sapfir.corp/Bank/API/1_0/RegisterClientScanDoc/</java.net.URL>
+</httpSample>
+<httpSample t="2005" it="0" lt="0" ct="2005" ts="1586763288700" s="false" lb="&apos;ClientSNILS: &apos;4533553&apos;. PNG." rc="Non HTTP response code: org.apache.http.conn.HttpHostConnectException" rm="Non HTTP response message: Connect to 127.0.0.1:8888 [/127.0.0.1] failed: Connection refused: connect" tn="BANK API 08.04.2020 1-1" dt="text" by="2705" sby="0" ng="1" na="1">
+  <java.net.URL>http://local-eskubuntu2.sapfir.corp/Bank/API/1_0/RegisterClientScanDoc/</java.net.URL>
+</httpSample>
+<httpSample t="2004" it="0" lt="0" ct="2004" ts="1586763290707" s="false" lb="ClientSNILS: 06171788574. Пусто." rc="Non HTTP response code: org.apache.http.conn.HttpHostConnectException" rm="Non HTTP response message: Connect to 127.0.0.1:8888 [/127.0.0.1] failed: Connection refused: connect" tn="BANK API 08.04.2020 1-1" dt="text" by="2705" sby="0" ng="1" na="1">
+  <java.net.URL>http://local-eskubuntu2.sapfir.corp/Bank/API/1_0/RegisterClientScanDoc/</java.net.URL>
+</httpSample>
+<httpSample t="2003" it="0" lt="0" ct="2003" ts="1586763292711" s="false" lb="&apos;ClientSNILS: 06171788574&apos;. DOC." rc="Non HTTP response code: org.apache.http.conn.HttpHostConnectException" rm="Non HTTP response message: Connect to 127.0.0.1:8888 [/127.0.0.1] failed: Connection refused: connect" tn="BANK API 08.04.2020 1-1" dt="text" by="2705" sby="0" ng="1" na="1">
+  <java.net.URL>http://local-eskubuntu2.sapfir.corp/Bank/API/1_0/RegisterClientScanDoc/</java.net.URL>
+</httpSample>
+<httpSample t="2003" it="0" lt="0" ct="2003" ts="1586763294715" s="false" lb="&apos;ClientSNILS: 06171788574&apos;. PNG." rc="Non HTTP response code: org.apache.http.conn.HttpHostConnectException" rm="Non HTTP response message: Connect to 127.0.0.1:8888 [/127.0.0.1] failed: Connection refused: connect" tn="BANK API 08.04.2020 1-1" dt="text" by="2705" sby="0" ng="1" na="1">
+  <java.net.URL>http://local-eskubuntu2.sapfir.corp/Bank/API/1_0/RegisterClientScanDoc/</java.net.URL>
+</httpSample>
+<httpSample t="1179" it="0" lt="0" ct="1179" ts="1586763296719" s="false" lb="ClientSNILS: &apos;48750603815&apos;. PNG." rc="Non HTTP response code: java.net.SocketException" rm="Non HTTP response message: Socket operation on nonsocket: connect" tn="BANK API 08.04.2020 1-1" dt="text" by="2446" sby="0" ng="1" na="1">
+  <java.net.URL>http://local-eskubuntu2.sapfir.corp/Bank/API/1_0/RegisterClientScanDoc/</java.net.URL>
+</httpSample>
+
+</testResults>
