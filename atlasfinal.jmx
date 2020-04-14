@@ -27,7 +27,7 @@
         <stringProp name="HTTPSampler.response_timeout"></stringProp>
       </ConfigTestElement>
       <hashTree/>
-      <ConfigTestElement guiclass="HttpDefaultsGui" testclass="ConfigTestElement" testname="api (test prod) port 9696" enabled="false">
+      <ConfigTestElement guiclass="HttpDefaultsGui" testclass="ConfigTestElement" testname="api (test prod) port 9696" enabled="true">
         <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" testname="User Defined Variables" enabled="true">
           <collectionProp name="Arguments.arguments"/>
         </elementProp>
@@ -57,7 +57,7 @@
         <stringProp name="HTTPSampler.response_timeout"></stringProp>
       </ConfigTestElement>
       <hashTree/>
-      <ConfigTestElement guiclass="HttpDefaultsGui" testclass="ConfigTestElement" testname="api (local костя) " enabled="true">
+      <ConfigTestElement guiclass="HttpDefaultsGui" testclass="ConfigTestElement" testname="api (local костя) " enabled="false">
         <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" testname="User Defined Variables" enabled="true">
           <collectionProp name="Arguments.arguments"/>
         </elementProp>
@@ -301,9 +301,9 @@ https://docs.google.com/document/d/1Bv7t7HfmN6-FfEzdG_FiD3IYN5MZUwRjaj-GgCCrqlI/
         <stringProp name="ThreadGroup.num_threads">10</stringProp>
         <stringProp name="ThreadGroup.ramp_time">1</stringProp>
         <boolProp name="ThreadGroup.scheduler">true</boolProp>
-        <stringProp name="ThreadGroup.duration">3600</stringProp>
+        <stringProp name="ThreadGroup.duration">300</stringProp>
         <stringProp name="ThreadGroup.delay"></stringProp>
-        <boolProp name="ThreadGroup.same_user_on_next_iteration">true</boolProp>
+        <boolProp name="ThreadGroup.same_user_on_next_iteration">false</boolProp>
       </ThreadGroup>
       <hashTree>
         <HeaderManager guiclass="HeaderPanel" testclass="HeaderManager" testname="auth" enabled="true">
@@ -3568,8 +3568,6 @@ https://docs.google.com/document/d/1Bv7t7HfmN6-FfEzdG_FiD3IYN5MZUwRjaj-GgCCrqlI/
                 <boolProp name="HTTPSampler.use_keepalive">true</boolProp>
                 <boolProp name="HTTPSampler.DO_MULTIPART_POST">false</boolProp>
                 <stringProp name="HTTPSampler.embedded_url_re"></stringProp>
-                <stringProp name="HTTPSampler.proxyHost">127.0.0.1</stringProp>
-                <stringProp name="HTTPSampler.proxyPort">8888</stringProp>
                 <stringProp name="HTTPSampler.connect_timeout"></stringProp>
                 <stringProp name="HTTPSampler.response_timeout"></stringProp>
                 <stringProp name="TestPlan.comments">https://wiki.nposapfir.ru/doku.php?id=atlas_projects:usc_api_bank_register_client_scan_doc</stringProp>
