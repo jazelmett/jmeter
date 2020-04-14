@@ -3533,7 +3533,7 @@ https://docs.google.com/document/d/1Bv7t7HfmN6-FfEzdG_FiD3IYN5MZUwRjaj-GgCCrqlI/
             </RandomController>
             <hashTree>
               <CSVDataSet guiclass="TestBeanGUI" testclass="CSVDataSet" testname="SNILSes" enabled="true">
-                <stringProp name="filename">D:/GitHub/jmeter2/registered SNILSes.csv</stringProp>
+                <stringProp name="filename">C:/FileUpload/registered SNILSes.csv</stringProp>
                 <stringProp name="fileEncoding"></stringProp>
                 <stringProp name="variableNames">rSnils</stringProp>
                 <boolProp name="ignoreFirstLine">false</boolProp>
