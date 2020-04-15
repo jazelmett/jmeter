@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testResults version="1.2">
+<httpSample t="368" it="0" lt="367" ct="5" ts="1586977014573" s="true" lb="{PNG} {randomSNILS} {RU} {5kb}" rc="200" rm="OK" tn="BANK API 08.04.2020 1-4" dt="text" by="162" sby="6690" ng="7" na="7">
+  <java.net.URL>http://webservice.uralsoccard.ru:9696/Bank/API/1_0/RegisterClientScanDoc/</java.net.URL>
+</httpSample>
+<httpSample t="334" it="0" lt="332" ct="6" ts="1586977014674" s="true" lb="{PNG} {randomSNILS} {EN} {5kb}" rc="200" rm="OK" tn="BANK API 08.04.2020 1-5" dt="text" by="162" sby="6670" ng="8" na="8">
+  <java.net.URL>http://webservice.uralsoccard.ru:9696/Bank/API/1_0/RegisterClientScanDoc/</java.net.URL>
+</httpSample>
+<httpSample t="305" it="0" lt="303" ct="4" ts="1586977015573" s="true" lb="{PNG} {randomSNILS} {EN} {5kb}" rc="200" rm="OK" tn="BANK API 08.04.2020 1-4" dt="text" by="162" sby="6700" ng="10" na="10">
+  <java.net.URL>http://webservice.uralsoccard.ru:9696/Bank/API/1_0/RegisterClientScanDoc/</java.net.URL>
+</httpSample>
+<httpSample t="3886" it="0" lt="3885" ct="9" ts="1586977014774" s="true" lb="{PDF} {randomSNILS} {RU} {1.1mb}" rc="200" rm="OK" tn="BANK API 08.04.2020 1-6" dt="text" by="162" sby="1200598" ng="10" na="10">
+  <java.net.URL>http://webservice.uralsoccard.ru:9696/Bank/API/1_0/RegisterClientScanDoc/</java.net.URL>
+</httpSample>
+<httpSample t="305" it="0" lt="303" ct="4" ts="1586977018662" s="true" lb="{PNG} {randomSNILS} {RU} {5kb}" rc="200" rm="OK" tn="BANK API 08.04.2020 1-6" dt="text" by="162" sby="6672" ng="10" na="10">
+  <java.net.URL>http://webservice.uralsoccard.ru:9696/Bank/API/1_0/RegisterClientScanDoc/</java.net.URL>
+</httpSample>
+<httpSample t="6382" it="0" lt="6380" ct="126" ts="1586977014287" s="true" lb="{JPEG} {randomSNILS} {EN} {2.4mb}" rc="200" rm="OK" tn="BANK API 08.04.2020 1-1" dt="text" by="162" sby="2528843" ng="10" na="10">
+  <java.net.URL>http://webservice.uralsoccard.ru:9696/Bank/API/1_0/RegisterClientScanDoc/</java.net.URL>
+</httpSample>
+<httpSample t="332" it="0" lt="331" ct="6" ts="1586977020672" s="true" lb="{JPEG} {randomSNILS} {EN} {224kb}" rc="200" rm="OK" tn="BANK API 08.04.2020 1-1" dt="text" by="162" sby="227868" ng="10" na="10">
+  <java.net.URL>http://webservice.uralsoccard.ru:9696/Bank/API/1_0/RegisterClientScanDoc/</java.net.URL>
+</httpSample>
+<httpSample t="6765" it="0" lt="6759" ct="11" ts="1586977014873" s="true" lb="{PDF} {randomSNILS} {EN} {1.1mb}" rc="200" rm="OK" tn="BANK API 08.04.2020 1-7" dt="text" by="162" sby="1200613" ng="10" na="10">
+  <java.net.URL>http://webservice.uralsoccard.ru:9696/Bank/API/1_0/RegisterClientScanDoc/</java.net.URL>
+</httpSample>
+<httpSample t="5906" it="0" lt="5905" ct="3" ts="1586977016572" s="true" lb="{PDF} {randomSNILS} {EN} {1.1mb}" rc="200" rm="OK" tn="BANK API 08.04.2020 1-4" dt="text" by="162" sby="1200583" ng="10" na="10">
+  <java.net.URL>http://webservice.uralsoccard.ru:9696/Bank/API/1_0/RegisterClientScanDoc/</java.net.URL>
+</httpSample>
+<httpSample t="9009" it="0" lt="9008" ct="47" ts="1586977014366" s="true" lb="{PDF} {randomSNILS} {EN} {1.1mb}" rc="200" rm="OK" tn="BANK API 08.04.2020 1-2" dt="text" by="162" sby="1200601" ng="10" na="10">
+  <java.net.URL>http://webservice.uralsoccard.ru:9696/Bank/API/1_0/RegisterClientScanDoc/</java.net.URL>
+</httpSample>
+<httpSample t="2594" it="0" lt="2594" ct="5" ts="1586977021640" s="true" lb="{JPEG} {randomSNILS} {RU} {224kb}" rc="200" rm="OK" tn="BANK API 08.04.2020 1-7" dt="text" by="162" sby="227878" ng="10" na="10">
+  <java.net.URL>http://webservice.uralsoccard.ru:9696/Bank/API/1_0/RegisterClientScanDoc/</java.net.URL>
+</httpSample>
+<httpSample t="338" it="0" lt="336" ct="4" ts="1586977024238" s="true" lb="{JPEG} {randomSNILS} {EN} {224kb}" rc="200" rm="OK" tn="BANK API 08.04.2020 1-7" dt="text" by="162" sby="227868" ng="10" na="10">
+  <java.net.URL>http://webservice.uralsoccard.ru:9696/Bank/API/1_0/RegisterClientScanDoc/</java.net.URL>
+</httpSample>
+<httpSample t="381" it="0" lt="366" ct="5" ts="1586977025237" s="true" lb="{JPEG} {randomSNILS} {EN} {224kb}" rc="200" rm="OK" tn="BANK API 08.04.2020 1-7" dt="text" by="162" sby="227892" ng="10" na="10">
+  <java.net.URL>http://webservice.uralsoccard.ru:9696/Bank/API/1_0/RegisterClientScanDoc/</java.net.URL>
+</httpSample>
+<httpSample t="10700" it="0" lt="10699" ct="5" ts="1586977015674" s="true" lb="{PDF} {randomSNILS} {EN} {1.1mb}" rc="200" rm="OK" tn="BANK API 08.04.2020 1-5" dt="text" by="162" sby="1200583" ng="10" na="10">
+  <java.net.URL>http://webservice.uralsoccard.ru:9696/Bank/API/1_0/RegisterClientScanDoc/</java.net.URL>
+</httpSample>
+<httpSample t="1329" it="0" lt="1327" ct="4" ts="1586977026375" s="true" lb="{JPEG} {randomSNILS} {RU} {224kb}" rc="200" rm="OK" tn="BANK API 08.04.2020 1-5" dt="text" by="162" sby="227881" ng="10" na="10">
+  <java.net.URL>http://webservice.uralsoccard.ru:9696/Bank/API/1_0/RegisterClientScanDoc/</java.net.URL>
+</httpSample>
+<httpSample t="2552" it="0" lt="2549" ct="6" ts="1586977026237" s="true" lb="{JPEG} {randomSNILS} {EN} {224kb}" rc="200" rm="OK" tn="BANK API 08.04.2020 1-7" dt="text" by="162" sby="227865" ng="10" na="10">
+  <java.net.URL>http://webservice.uralsoccard.ru:9696/Bank/API/1_0/RegisterClientScanDoc/</java.net.URL>
+</httpSample>
+<httpSample t="7347" it="0" lt="7346" ct="5" ts="1586977021673" s="true" lb="{PDF} {randomSNILS} {EN} {1.1mb}" rc="200" rm="OK" tn="BANK API 08.04.2020 1-1" dt="text" by="162" sby="1200586" ng="10" na="10">
+  <java.net.URL>http://webservice.uralsoccard.ru:9696/Bank/API/1_0/RegisterClientScanDoc/</java.net.URL>
+</httpSample>
+<httpSample t="9840" it="0" lt="9837" ct="1005" ts="1586977019662" s="true" lb="{PDF} {randomSNILS} {EN} {1.1mb}" rc="200" rm="OK" tn="BANK API 08.04.2020 1-6" dt="text" by="162" sby="1200598" ng="10" na="10">
+  <java.net.URL>http://webservice.uralsoccard.ru:9696/Bank/API/1_0/RegisterClientScanDoc/</java.net.URL>
+</httpSample>
+<httpSample t="664" it="0" lt="664" ct="5" ts="1586977029021" s="true" lb="{JPEG} {randomSNILS} {EN} {224kb}" rc="200" rm="OK" tn="BANK API 08.04.2020 1-1" dt="text" by="162" sby="227880" ng="10" na="10">
+  <java.net.URL>http://webservice.uralsoccard.ru:9696/Bank/API/1_0/RegisterClientScanDoc/</java.net.URL>
+</httpSample>
+<httpSample t="8352" it="0" lt="8351" ct="5" ts="1586977022480" s="true" lb="{JPEG} {randomSNILS} {EN} {2.4mb}" rc="200" rm="OK" tn="BANK API 08.04.2020 1-4" dt="text" by="162" sby="2528843" ng="10" na="10">
+  <java.net.URL>http://webservice.uralsoccard.ru:9696/Bank/API/1_0/RegisterClientScanDoc/</java.net.URL>
+</httpSample>
+<httpSample t="16004" it="0" lt="16004" ct="9" ts="1586977015174" s="true" lb="{JPEG} {randomSNILS} {RU} {2.4mb}" rc="200" rm="OK" tn="BANK API 08.04.2020 1-10" dt="text" by="162" sby="2528860" ng="10" na="10">
+  <java.net.URL>http://webservice.uralsoccard.ru:9696/Bank/API/1_0/RegisterClientScanDoc/</java.net.URL>
+</httpSample>
+<httpSample t="2707" it="0" lt="2707" ct="1004" ts="1586977028790" s="true" lb="{JPEG} {randomSNILS} {RU} {224kb}" rc="200" rm="OK" tn="BANK API 08.04.2020 1-7" dt="text" by="162" sby="227890" ng="10" na="10">
+  <java.net.URL>http://webservice.uralsoccard.ru:9696/Bank/API/1_0/RegisterClientScanDoc/</java.net.URL>
+</httpSample>
+<httpSample t="335" it="0" lt="334" ct="21" ts="1586977031181" s="true" lb="{PNG} {randomSNILS} {RU} {5kb}" rc="200" rm="OK" tn="BANK API 08.04.2020 1-10" dt="text" by="162" sby="6699" ng="10" na="10">
+  <java.net.URL>http://webservice.uralsoccard.ru:9696/Bank/API/1_0/RegisterClientScanDoc/</java.net.URL>
+</httpSample>
+<httpSample t="287" it="0" lt="285" ct="5" ts="1586977032181" s="true" lb="{PNG} {randomSNILS} {RU} {5kb}" rc="200" rm="OK" tn="BANK API 08.04.2020 1-10" dt="text" by="162" sby="6690" ng="10" na="10">
+  <java.net.URL>http://webservice.uralsoccard.ru:9696/Bank/API/1_0/RegisterClientScanDoc/</java.net.URL>
+</httpSample>
+<httpSample t="18596" it="0" lt="18593" ct="4" ts="1586977014974" s="true" lb="{PNG} {randomSNILS} {EN} {3.4mb}" rc="200" rm="OK" tn="BANK API 08.04.2020 1-8" dt="text" by="162" sby="3601598" ng="10" na="10">
+  <java.net.URL>http://webservice.uralsoccard.ru:9696/Bank/API/1_0/RegisterClientScanDoc/</java.net.URL>
+</httpSample>
+<httpSample t="3737" it="0" lt="3735" ct="1006" ts="1586977030021" s="true" lb="{JPEG} {randomSNILS} {EN} {224kb}" rc="200" rm="OK" tn="BANK API 08.04.2020 1-1" dt="text" by="162" sby="227871" ng="10" na="10">
+  <java.net.URL>http://webservice.uralsoccard.ru:9696/Bank/API/1_0/RegisterClientScanDoc/</java.net.URL>
+</httpSample>
+<httpSample t="662" it="0" lt="662" ct="4" ts="1586977033571" s="true" lb="{JPEG} {randomSNILS} {RU} {224kb}" rc="200" rm="OK" tn="BANK API 08.04.2020 1-8" dt="text" by="162" sby="227872" ng="10" na="10">
+  <java.net.URL>http://webservice.uralsoccard.ru:9696/Bank/API/1_0/RegisterClientScanDoc/</java.net.URL>
+</httpSample>
+<httpSample t="1009" it="0" lt="1008" ct="4" ts="1586977033759" s="true" lb="{JPEG} {randomSNILS} {EN} {224kb}" rc="200" rm="OK" tn="BANK API 08.04.2020 1-1" dt="text" by="162" sby="227868" ng="10" na="10">
+  <java.net.URL>http://webservice.uralsoccard.ru:9696/Bank/API/1_0/RegisterClientScanDoc/</java.net.URL>
+</httpSample>
+<httpSample t="24920" it="0" lt="24919" ct="12" ts="1586977014466" s="true" lb="{PNG} {randomSNILS} {RU} {3.4mb}" rc="200" rm="OK" tn="BANK API 08.04.2020 1-3" dt="text" by="162" sby="3601621" ng="10" na="10">
+  <java.net.URL>http://webservice.uralsoccard.ru:9696/Bank/API/1_0/RegisterClientScanDoc/</java.net.URL>
+</httpSample>
+<httpSample t="16954" it="0" lt="16954" ct="4" ts="1586977023377" s="true" lb="{PNG} {randomSNILS} {EN} {3.4mb}" rc="200" rm="OK" tn="BANK API 08.04.2020 1-2" dt="text" by="162" sby="3601622" ng="10" na="10">
+  <java.net.URL>http://webservice.uralsoccard.ru:9696/Bank/API/1_0/RegisterClientScanDoc/</java.net.URL>
+</httpSample>
+<httpSample t="13096" it="0" lt="13094" ct="3" ts="1586977027706" s="true" lb="{PNG} {randomSNILS} {RU} {3.4mb}" rc="200" rm="OK" tn="BANK API 08.04.2020 1-5" dt="text" by="162" sby="3601612" ng="10" na="10">
+  <java.net.URL>http://webservice.uralsoccard.ru:9696/Bank/API/1_0/RegisterClientScanDoc/</java.net.URL>
+</httpSample>
+<httpSample t="10332" it="0" lt="10332" ct="1006" ts="1586977031498" s="true" lb="{PDF} {randomSNILS} {RU} {1.1mb}" rc="200" rm="OK" tn="BANK API 08.04.2020 1-7" dt="text" by="162" sby="1200604" ng="10" na="10">
+  <java.net.URL>http://webservice.uralsoccard.ru:9696/Bank/API/1_0/RegisterClientScanDoc/</java.net.URL>
+</httpSample>
+<httpSample t="302" it="0" lt="300" ct="7" ts="1586977041831" s="true" lb="{PNG} {randomSNILS} {EN} {5kb}" rc="200" rm="OK" tn="BANK API 08.04.2020 1-7" dt="text" by="162" sby="6688" ng="10" na="10">
+  <java.net.URL>http://webservice.uralsoccard.ru:9696/Bank/API/1_0/RegisterClientScanDoc/</java.net.URL>
+</httpSample>
+<httpSample t="4377" it="0" lt="4376" ct="4" ts="1586977039388" s="true" lb="{PDF} {randomSNILS} {EN} {1.1mb}" rc="200" rm="OK" tn="BANK API 08.04.2020 1-3" dt="text" by="162" sby="1200595" ng="10" na="10">
+  <java.net.URL>http://webservice.uralsoccard.ru:9696/Bank/API/1_0/RegisterClientScanDoc/</java.net.URL>
+</httpSample>
+<httpSample t="31568" it="0" lt="31566" ct="5" ts="1586977015076" s="true" lb="{PNG} {randomSNILS} {EN} {3.4mb}" rc="200" rm="OK" tn="BANK API 08.04.2020 1-9" dt="text" by="162" sby="3601628" ng="10" na="10">
+  <java.net.URL>http://webservice.uralsoccard.ru:9696/Bank/API/1_0/RegisterClientScanDoc/</java.net.URL>
+</httpSample>
+<httpSample t="13758" it="0" lt="13757" ct="4" ts="1586977034769" s="true" lb="{JPEG} {randomSNILS} {RU} {2.4mb}" rc="200" rm="OK" tn="BANK API 08.04.2020 1-1" dt="text" by="162" sby="2528863" ng="10" na="10">
+  <java.net.URL>http://webservice.uralsoccard.ru:9696/Bank/API/1_0/RegisterClientScanDoc/</java.net.URL>
+</httpSample>
+<httpSample t="4205" it="0" lt="4203" ct="6" ts="1586977046644" s="true" lb="{PDF} {randomSNILS} {RU} {1.1mb}" rc="200" rm="OK" tn="BANK API 08.04.2020 1-9" dt="text" by="162" sby="1200586" ng="10" na="10">
+  <java.net.URL>http://webservice.uralsoccard.ru:9696/Bank/API/1_0/RegisterClientScanDoc/</java.net.URL>
+</httpSample>
+<httpSample t="17021" it="0" lt="17019" ct="4" ts="1586977034571" s="true" lb="{PNG} {randomSNILS} {EN} {3.4mb}" rc="200" rm="OK" tn="BANK API 08.04.2020 1-8" dt="text" by="162" sby="3601604" ng="10" na="10">
+  <java.net.URL>http://webservice.uralsoccard.ru:9696/Bank/API/1_0/RegisterClientScanDoc/</java.net.URL>
+</httpSample>
+<httpSample t="7924" it="0" lt="7924" ct="4" ts="1586977043766" s="true" lb="{JPEG} {randomSNILS} {EN} {2.4mb}" rc="200" rm="OK" tn="BANK API 08.04.2020 1-3" dt="text" by="162" sby="2528861" ng="10" na="10">
+  <java.net.URL>http://webservice.uralsoccard.ru:9696/Bank/API/1_0/RegisterClientScanDoc/</java.net.URL>
+</httpSample>
+<httpSample t="301" it="0" lt="301" ct="5" ts="1586977051692" s="true" lb="{PNG} {randomSNILS} {EN} {5kb}" rc="200" rm="OK" tn="BANK API 08.04.2020 1-3" dt="text" by="162" sby="6673" ng="10" na="10">
+  <java.net.URL>http://webservice.uralsoccard.ru:9696/Bank/API/1_0/RegisterClientScanDoc/</java.net.URL>
+</httpSample>
+<httpSample t="19375" it="0" lt="19375" ct="4" ts="1586977033181" s="true" lb="{PNG} {randomSNILS} {EN} {3.4mb}" rc="200" rm="OK" tn="BANK API 08.04.2020 1-10" dt="text" by="162" sby="3601619" ng="10" na="10">
+  <java.net.URL>http://webservice.uralsoccard.ru:9696/Bank/API/1_0/RegisterClientScanDoc/</java.net.URL>
+</httpSample>
+<httpSample t="1290" it="0" lt="1290" ct="1007" ts="1586977051593" s="true" lb="{PNG} {randomSNILS} {RU} {5kb}" rc="200" rm="OK" tn="BANK API 08.04.2020 1-8" dt="text" by="162" sby="6699" ng="10" na="10">
+  <java.net.URL>http://webservice.uralsoccard.ru:9696/Bank/API/1_0/RegisterClientScanDoc/</java.net.URL>
+</httpSample>
+<httpSample t="15408" it="0" lt="15406" ct="7" ts="1586977040332" s="true" lb="{JPEG} {randomSNILS} {RU} {2.4mb}" rc="200" rm="OK" tn="BANK API 08.04.2020 1-2" dt="text" by="162" sby="2528845" ng="10" na="10">
+  <java.net.URL>http://webservice.uralsoccard.ru:9696/Bank/API/1_0/RegisterClientScanDoc/</java.net.URL>
+</httpSample>
+<httpSample t="284" it="0" lt="282" ct="5" ts="1586977055742" s="true" lb="{PNG} {randomSNILS} {RU} {5kb}" rc="200" rm="OK" tn="BANK API 08.04.2020 1-2" dt="text" by="162" sby="6687" ng="10" na="10">
+  <java.net.URL>http://webservice.uralsoccard.ru:9696/Bank/API/1_0/RegisterClientScanDoc/</java.net.URL>
+</httpSample>
+<httpSample t="666" it="0" lt="666" ct="5" ts="1586977056742" s="true" lb="{JPEG} {randomSNILS} {EN} {224kb}" rc="200" rm="OK" tn="BANK API 08.04.2020 1-2" dt="text" by="162" sby="227868" ng="10" na="10">
+  <java.net.URL>http://webservice.uralsoccard.ru:9696/Bank/API/1_0/RegisterClientScanDoc/</java.net.URL>
+</httpSample>
+<httpSample t="459" it="0" lt="457" ct="3" ts="1586977057741" s="true" lb="{PNG} {randomSNILS} {RU} {5kb}" rc="200" rm="OK" tn="BANK API 08.04.2020 1-2" dt="text" by="162" sby="6687" ng="10" na="10">
+  <java.net.URL>http://webservice.uralsoccard.ru:9696/Bank/API/1_0/RegisterClientScanDoc/</java.net.URL>
+</httpSample>
+<httpSample t="15380" it="0" lt="15379" ct="5" ts="1586977042831" s="false" lb="{PNG} {randomSNILS} {RU} {3.4mb}" rc="500" rm="Internal Server Error" tn="BANK API 08.04.2020 1-7" dt="" by="2238" sby="3601624" ng="10" na="10">
+  <java.net.URL>http://webservice.uralsoccard.ru:9696/Bank/API/1_0/RegisterClientScanDoc/</java.net.URL>
+</httpSample>
+<httpSample t="333" it="0" lt="332" ct="15" ts="1586977058741" s="true" lb="{PNG} {randomSNILS} {EN} {5kb}" rc="200" rm="OK" tn="BANK API 08.04.2020 1-2" dt="text" by="162" sby="6673" ng="10" na="10">
+  <java.net.URL>http://webservice.uralsoccard.ru:9696/Bank/API/1_0/RegisterClientScanDoc/</java.net.URL>
+</httpSample>
+<httpSample t="12480" it="0" lt="12480" ct="6" ts="1586977048528" s="true" lb="{JPEG} {randomSNILS} {RU} {224kb}" rc="200" rm="OK" tn="BANK API 08.04.2020 1-1" dt="text" by="162" sby="227887" ng="10" na="10">
+  <java.net.URL>http://webservice.uralsoccard.ru:9696/Bank/API/1_0/RegisterClientScanDoc/</java.net.URL>
+</httpSample>
+<httpSample t="20243" it="0" lt="20238" ct="1005" ts="1586977040805" s="true" lb="{JPEG} {randomSNILS} {RU} {2.4mb}" rc="200" rm="OK" tn="BANK API 08.04.2020 1-5" dt="text" by="162" sby="2528857" ng="10" na="10">
+  <java.net.URL>http://webservice.uralsoccard.ru:9696/Bank/API/1_0/RegisterClientScanDoc/</java.net.URL>
+</httpSample>
+<httpSample t="31786" it="0" lt="31785" ct="5" ts="1586977029503" s="true" lb="{PNG} {randomSNILS} {RU} {3.4mb}" rc="200" rm="OK" tn="BANK API 08.04.2020 1-6" dt="text" by="162" sby="3601621" ng="10" na="10">
+  <java.net.URL>http://webservice.uralsoccard.ru:9696/Bank/API/1_0/RegisterClientScanDoc/</java.net.URL>
+</httpSample>
+<httpSample t="346" it="0" lt="346" ct="10" ts="1586977061048" s="true" lb="{JPEG} {randomSNILS} {EN} {224kb}" rc="200" rm="OK" tn="BANK API 08.04.2020 1-5" dt="text" by="162" sby="227874" ng="10" na="10">
+  <java.net.URL>http://webservice.uralsoccard.ru:9696/Bank/API/1_0/RegisterClientScanDoc/</java.net.URL>
+</httpSample>
+<httpSample t="10916" it="0" lt="10915" ct="3005" ts="1586977050851" s="true" lb="{PNG} {randomSNILS} {EN} {3.4mb}" rc="200" rm="OK" tn="BANK API 08.04.2020 1-9" dt="text" by="162" sby="3601628" ng="10" na="10">
+  <java.net.URL>http://webservice.uralsoccard.ru:9696/Bank/API/1_0/RegisterClientScanDoc/</java.net.URL>
+</httpSample>
+<httpSample t="1322" it="0" lt="1321" ct="7" ts="1586977061768" s="true" lb="{JPEG} {randomSNILS} {EN} {224kb}" rc="200" rm="OK" tn="BANK API 08.04.2020 1-9" dt="text" by="162" sby="227880" ng="10" na="10">
+  <java.net.URL>http://webservice.uralsoccard.ru:9696/Bank/API/1_0/RegisterClientScanDoc/</java.net.URL>
+</httpSample>
+<httpSample t="2244" it="0" lt="2242" ct="8" ts="1586977061290" s="true" lb="{PDF} {randomSNILS} {EN} {1.1mb}" rc="200" rm="OK" tn="BANK API 08.04.2020 1-6" dt="text" by="162" sby="1200601" ng="10" na="10">
+  <java.net.URL>http://webservice.uralsoccard.ru:9696/Bank/API/1_0/RegisterClientScanDoc/</java.net.URL>
+</httpSample>
+<httpSample t="5082" it="0" lt="5082" ct="3" ts="1586977059740" s="true" lb="{JPEG} {randomSNILS} {EN} {2.4mb}" rc="200" rm="OK" tn="BANK API 08.04.2020 1-2" dt="text" by="162" sby="2528855" ng="10" na="10">
+  <java.net.URL>http://webservice.uralsoccard.ru:9696/Bank/API/1_0/RegisterClientScanDoc/</java.net.URL>
+</httpSample>
+<httpSample t="12624" it="0" lt="12624" ct="1005" ts="1586977052885" s="true" lb="{JPEG} {randomSNILS} {EN} {224kb}" rc="200" rm="OK" tn="BANK API 08.04.2020 1-8" dt="text" by="162" sby="227868" ng="10" na="10">
+  <java.net.URL>http://webservice.uralsoccard.ru:9696/Bank/API/1_0/RegisterClientScanDoc/</java.net.URL>
+</httpSample>
+<httpSample t="721" it="0" lt="719" ct="4" ts="1586977065510" s="true" lb="{JPEG} {randomSNILS} {RU} {224kb}" rc="200" rm="OK" tn="BANK API 08.04.2020 1-8" dt="text" by="162" sby="227872" ng="10" na="10">
+  <java.net.URL>http://webservice.uralsoccard.ru:9696/Bank/API/1_0/RegisterClientScanDoc/</java.net.URL>
+</httpSample>
+<httpSample t="6302" it="0" lt="6302" ct="23" ts="1586977061010" s="true" lb="{JPEG} {randomSNILS} {EN} {2.4mb}" rc="200" rm="OK" tn="BANK API 08.04.2020 1-1" dt="text" by="162" sby="2528858" ng="10" na="10">
+  <java.net.URL>http://webservice.uralsoccard.ru:9696/Bank/API/1_0/RegisterClientScanDoc/</java.net.URL>
+</httpSample>
+<httpSample t="1346" it="0" lt="0" ct="5" ts="1586977067315" s="false" lb="{PNG} {randomSNILS} {RU} {3.4mb}" rc="Non HTTP response code: java.net.SocketException" rm="Non HTTP response message: Socket closed" tn="BANK API 08.04.2020 1-1" dt="text" by="2804" sby="0" ng="10" na="10">
+  <java.net.URL>http://webservice.uralsoccard.ru:9696/Bank/API/1_0/RegisterClientScanDoc/</java.net.URL>
+</httpSample>
+<httpSample t="37826" it="0" lt="0" ct="7009" ts="1586977030835" s="false" lb="{PNG} {randomSNILS} {RU} {3.4mb}" rc="Non HTTP response code: java.net.SocketException" rm="Non HTTP response message: Socket closed" tn="BANK API 08.04.2020 1-4" dt="text" by="2804" sby="0" ng="10" na="10">
+  <java.net.URL>http://webservice.uralsoccard.ru:9696/Bank/API/1_0/RegisterClientScanDoc/</java.net.URL>
+</httpSample>
+<httpSample t="16106" it="0" lt="0" ct="5" ts="1586977052559" s="false" lb="{PNG} {randomSNILS} {EN} {3.4mb}" rc="Non HTTP response code: java.net.SocketException" rm="Non HTTP response message: Socket closed" tn="BANK API 08.04.2020 1-10" dt="text" by="2556" sby="0" ng="8" na="8">
+  <java.net.URL>http://webservice.uralsoccard.ru:9696/Bank/API/1_0/RegisterClientScanDoc/</java.net.URL>
+</httpSample>
+<httpSample t="3841" it="0" lt="0" ct="4" ts="1586977064825" s="false" lb="{PNG} {randomSNILS} {EN} {3.4mb}" rc="Non HTTP response code: java.net.SocketException" rm="Non HTTP response message: Socket closed" tn="BANK API 08.04.2020 1-2" dt="text" by="2804" sby="0" ng="8" na="8">
+  <java.net.URL>http://webservice.uralsoccard.ru:9696/Bank/API/1_0/RegisterClientScanDoc/</java.net.URL>
+</httpSample>
+<httpSample t="10454" it="0" lt="0" ct="5" ts="1586977058212" s="false" lb="{JPEG} {randomSNILS} {RU} {2.4mb}" rc="Non HTTP response code: java.net.SocketException" rm="Non HTTP response message: Socket closed" tn="BANK API 08.04.2020 1-7" dt="text" by="2804" sby="0" ng="7" na="7">
+  <java.net.URL>http://webservice.uralsoccard.ru:9696/Bank/API/1_0/RegisterClientScanDoc/</java.net.URL>
+</httpSample>
+<httpSample t="5131" it="0" lt="0" ct="1007" ts="1586977063535" s="false" lb="{JPEG} {randomSNILS} {EN} {2.4mb}" rc="Non HTTP response code: java.net.SocketException" rm="Non HTTP response message: Socket closed" tn="BANK API 08.04.2020 1-6" dt="text" by="2804" sby="0" ng="5" na="5">
+  <java.net.URL>http://webservice.uralsoccard.ru:9696/Bank/API/1_0/RegisterClientScanDoc/</java.net.URL>
+</httpSample>
+<httpSample t="2157" it="0" lt="0" ct="5" ts="1586977066511" s="false" lb="{PDF} {randomSNILS} {RU} {1.1mb}" rc="Non HTTP response code: java.net.SocketException" rm="Non HTTP response message: Socket closed" tn="BANK API 08.04.2020 1-8" dt="text" by="2556" sby="0" ng="4" na="4">
+  <java.net.URL>http://webservice.uralsoccard.ru:9696/Bank/API/1_0/RegisterClientScanDoc/</java.net.URL>
+</httpSample>
+<httpSample t="15978" it="0" lt="0" ct="6" ts="1586977052692" s="false" lb="{PNG} {randomSNILS} {RU} {3.4mb}" rc="Non HTTP response code: java.net.SocketException" rm="Non HTTP response message: Socket closed" tn="BANK API 08.04.2020 1-3" dt="text" by="2804" sby="0" ng="3" na="3">
+  <java.net.URL>http://webservice.uralsoccard.ru:9696/Bank/API/1_0/RegisterClientScanDoc/</java.net.URL>
+</httpSample>
+<httpSample t="5578" it="0" lt="0" ct="6" ts="1586977063092" s="false" lb="{JPEG} {randomSNILS} {EN} {2.4mb}" rc="Non HTTP response code: java.net.SocketException" rm="Non HTTP response message: Socket closed" tn="BANK API 08.04.2020 1-9" dt="text" by="2804" sby="0" ng="3" na="3">
+  <java.net.URL>http://webservice.uralsoccard.ru:9696/Bank/API/1_0/RegisterClientScanDoc/</java.net.URL>
+</httpSample>
+<httpSample t="6622" it="0" lt="0" ct="7" ts="1586977062049" s="false" lb="{JPEG} {randomSNILS} {RU} {2.4mb}" rc="Non HTTP response code: java.net.SocketException" rm="Non HTTP response message: Socket closed" tn="BANK API 08.04.2020 1-5" dt="text" by="2804" sby="0" ng="1" na="1">
+  <java.net.URL>http://webservice.uralsoccard.ru:9696/Bank/API/1_0/RegisterClientScanDoc/</java.net.URL>
+</httpSample>
+
+</testResults>
