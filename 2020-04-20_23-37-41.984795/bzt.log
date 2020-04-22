@@ -1,0 +1,195 @@
+[2020-04-20 23:37:41,866 INFO root] Taurus CLI Tool v1.14.2
+[2020-04-20 23:37:41,868 DEBUG root] Command-line options: {'log': 'C:\\Users\\myper\\AppData\\Local\\Temp\\bzt_w0853jdw.log', 'option': None, 'quiet': None, 'verbose': None, 'no_system_configs': None, 'aliases': []}
+[2020-04-20 23:37:41,868 DEBUG root] Python: CPython 3.7.5
+[2020-04-20 23:37:41,868 DEBUG root] Rev: 6cd8ae68844d2aa3e9428ed7317e9cf44c3943ad; OS: uname_result(system='Windows', node='DESKTOP-RVNENMJ', release='10', version='10.0.18362', machine='AMD64', processor='Intel64 Family 6 Model 94 Stepping 3, GenuineIntel')
+[2020-04-20 23:37:41,869 DEBUG root] Adding JMX shorthand config for: ['atlasfinal.jmx']
+[2020-04-20 23:37:41,870 DEBUG root] Dumping JSON config into C:\Users\myper\AppData\Local\Temp\jmx_vgwvy6hi.json
+[2020-04-20 23:37:41,871 INFO root] Starting with configs: ['C:\\Users\\myper\\AppData\\Local\\Temp\\jmx_vgwvy6hi.json']
+[2020-04-20 23:37:41,871 DEBUG root] Using personal config: C:\Users\myper\.bzt-rc
+[2020-04-20 23:37:41,871 INFO Engine] Configuring...
+[2020-04-20 23:37:41,916 DEBUG Engine] Base configs list: ['C:\\MyPrograms\\Taurus\\pkgs\\bzt\\resources/10-base-config.yml']
+[2020-04-20 23:37:41,916 DEBUG Engine.Configuration] Configs: ['C:\\MyPrograms\\Taurus\\pkgs\\bzt\\resources/10-base-config.yml']
+[2020-04-20 23:37:41,923 DEBUG Engine.Configuration] Reading C:\MyPrograms\Taurus\pkgs\bzt\resources/10-base-config.yml as YAML
+[2020-04-20 23:37:41,948 DEBUG Engine] User configs list: ['C:\\Users\\myper\\.bzt-rc', 'C:\\Users\\myper\\AppData\\Local\\Temp\\jmx_vgwvy6hi.json']
+[2020-04-20 23:37:41,949 DEBUG Engine.Configuration] Configs: ['C:\\Users\\myper\\.bzt-rc', 'C:\\Users\\myper\\AppData\\Local\\Temp\\jmx_vgwvy6hi.json']
+[2020-04-20 23:37:41,956 DEBUG Engine.Configuration] Reading C:\Users\myper\.bzt-rc as YAML
+[2020-04-20 23:37:41,967 DEBUG Engine.Configuration] Reading C:\Users\myper\AppData\Local\Temp\jmx_vgwvy6hi.json as YAML
+[2020-04-20 23:37:41,968 DEBUG Engine.Configuration] Configs: ['C:\\Users\\myper\\.bzt-rc', 'C:\\Users\\myper\\AppData\\Local\\Temp\\jmx_vgwvy6hi.json']
+[2020-04-20 23:37:41,968 DEBUG Engine.Configuration] Reading C:\Users\myper\.bzt-rc as YAML
+[2020-04-20 23:37:41,972 DEBUG Engine.Configuration] Reading C:\Users\myper\AppData\Local\Temp\jmx_vgwvy6hi.json as YAML
+[2020-04-20 23:37:41,984 DEBUG Engine] Requesting updates info: https://gettaurus.org/updates/?version=1.14.2&installID=windows-1c1b0d6bad78
+[2020-04-20 23:37:41,984 INFO Engine] Artifacts dir: C:\Repos\GitHub\jmeter\2020-04-20_23-37-41.984795
+[2020-04-20 23:37:41,985 DEBUG HTTPClient] Making HTTP request GET https://gettaurus.org/updates/?version=1.14.2&installID=windows-1c1b0d6bad78
+[2020-04-20 23:37:41,986 DEBUG Engine] New artifact filename: C:\Repos\GitHub\jmeter\2020-04-20_23-37-41.984795\effective
+[2020-04-20 23:37:41,989 DEBUG Engine.Configuration] Dumping YAML config into C:\Repos\GitHub\jmeter\2020-04-20_23-37-41.984795\effective.yml
+[2020-04-20 23:37:42,001 DEBUG urllib3.connectionpool] Starting new HTTPS connection (1): gettaurus.org:443
+[2020-04-20 23:37:42,006 DEBUG Engine.Configuration] Dumping JSON config into C:\Repos\GitHub\jmeter\2020-04-20_23-37-41.984795\effective.json
+[2020-04-20 23:37:42,007 DEBUG Engine] New artifact filename: C:\Repos\GitHub\jmeter\2020-04-20_23-37-41.984795\merged.yml
+[2020-04-20 23:37:42,008 DEBUG Engine.Configuration] Dumping YAML config into C:\Repos\GitHub\jmeter\2020-04-20_23-37-41.984795\merged.yml
+[2020-04-20 23:37:42,009 DEBUG Engine] New artifact filename: C:\Repos\GitHub\jmeter\2020-04-20_23-37-41.984795\merged.json
+[2020-04-20 23:37:42,009 DEBUG Engine.Configuration] Dumping JSON config into C:\Repos\GitHub\jmeter\2020-04-20_23-37-41.984795\merged.json
+[2020-04-20 23:37:42,010 DEBUG Engine] Add existing artifact (move=False): C:\Users\myper\AppData\Local\Temp\jmx_vgwvy6hi.json
+[2020-04-20 23:37:42,010 DEBUG Engine] Copying C:\Users\myper\AppData\Local\Temp\jmx_vgwvy6hi.json to C:\Repos\GitHub\jmeter\2020-04-20_23-37-41.984795\jmx_vgwvy6hi.json
+[2020-04-20 23:37:42,012 DEBUG root] Closing log handler: C:\Users\myper\AppData\Local\Temp\bzt_w0853jdw.log
+[2020-04-20 23:37:42,015 DEBUG root] Switched writing logs to C:\Repos\GitHub\jmeter\2020-04-20_23-37-41.984795\bzt.log
+[2020-04-20 23:37:42,015 DEBUG root] Linting config
+[2020-04-20 23:37:42,017 INFO Engine] Preparing...
+[2020-04-20 23:37:42,017 DEBUG Engine] Module config: consolidator {'class': 'bzt.modules.aggregator.ConsolidatingAggregator'}
+[2020-04-20 23:37:42,018 DEBUG root] Importing module: bzt.modules.aggregator
+[2020-04-20 23:37:42,552 DEBUG root] Loading class: 'ConsolidatingAggregator' from <module 'bzt.modules.aggregator' from 'C:\\MyPrograms\\Taurus\\pkgs\\bzt\\modules\\aggregator.py'>
+[2020-04-20 23:37:42,552 DEBUG Engine.consolidator] Buffer scaling setup: percentile 95.0 from [0.0, 50.0, 90.0, 95.0, 99.0, 99.9, 100.0] selected
+[2020-04-20 23:37:42,552 DEBUG Engine] Module config: monitoring {'class': 'bzt.modules.monitoring.Monitoring'}
+[2020-04-20 23:37:42,552 DEBUG root] Importing module: bzt.modules.monitoring
+[2020-04-20 23:37:42,557 DEBUG root] Loading class: 'Monitoring' from <module 'bzt.modules.monitoring' from 'C:\\MyPrograms\\Taurus\\pkgs\\bzt\\modules\\monitoring.py'>
+[2020-04-20 23:37:42,557 DEBUG Engine] Module config: local {'class': 'bzt.modules.provisioning.Local'}
+[2020-04-20 23:37:42,557 DEBUG root] Importing module: bzt.modules.provisioning
+[2020-04-20 23:37:42,557 DEBUG root] Loading class: 'Local' from <module 'bzt.modules.provisioning' from 'C:\\MyPrograms\\Taurus\\pkgs\\bzt\\modules\\provisioning.py'>
+[2020-04-20 23:37:42,558 DEBUG Engine] Module config: jmeter {'class': 'bzt.modules.jmeter.JMeterExecutor', 'protocol-handlers': {'http': 'bzt.jmx.http.HTTPProtocolHandler'}, 'plugins': ['jpgc-casutg', 'jpgc-dummy', 'jpgc-ffw', 'jpgc-fifo', 'jpgc-functions', 'jpgc-json', 'jpgc-perfmon', 'jpgc-prmctl', 'jpgc-tst'], 'properties': {'jmeter.save.saveservice.autoflush': 'true', 'jmeter.save.saveservice.connect_time': 'true', 'jmeterengine.force.system.exit': 'true', 'summariser.name': ''}}
+[2020-04-20 23:37:42,558 DEBUG root] Importing module: bzt.modules.jmeter
+[2020-04-20 23:37:42,601 DEBUG root] Loading class: 'JMeterExecutor' from <module 'bzt.modules.jmeter' from 'C:\\MyPrograms\\Taurus\\pkgs\\bzt\\modules\\jmeter.py'>
+[2020-04-20 23:37:42,601 DEBUG Engine.local] Preparing executor: jmeter/2259867520264
+[2020-04-20 23:37:42,602 DEBUG Engine] New artifact filename: C:\Repos\GitHub\jmeter\2020-04-20_23-37-41.984795\jmeter.log
+[2020-04-20 23:37:42,602 DEBUG Engine.jmeter] Checking if port 4445 is free
+[2020-04-20 23:37:42,605 DEBUG Engine.jmeter] Port 4445 is free
+[2020-04-20 23:37:42,607 DEBUG Engine.jmeter] Using port 4445 for management
+[2020-04-20 23:37:42,607 DEBUG Engine.jmeter] Extract {'script': 'atlasfinal.jmx'} into scenarios
+[2020-04-20 23:37:42,608 DEBUG Engine.jmeter] Additional properties: {'jmeter.save.saveservice.autoflush': 'true', 'jmeter.save.saveservice.connect_time': 'true', 'jmeterengine.force.system.exit': 'true', 'summariser.name': '', 'jmeterengine.nongui.port': 4445, 'jmeterengine.nongui.maxport': 4445, 'jmeter.save.saveservice.timestamp_format': 'ms', 'sampleresult.default.encoding': 'UTF-8', 'user.classpath': 'C:/Repos/GitHub/jmeter/2020-04-20_23-37-41.984795;C:/Repos/GitHub/jmeter'}
+[2020-04-20 23:37:42,609 DEBUG Engine] New artifact filename: C:\Repos\GitHub\jmeter\2020-04-20_23-37-41.984795\jmeter-bzt.properties
+[2020-04-20 23:37:42,612 DEBUG Engine.jmeter.JavaVM] Trying JavaVM: ['java', '-version']
+[2020-04-20 23:37:42,613 DEBUG root] Executing shell: ['java', '-version'] at .
+[2020-04-20 23:37:42,964 DEBUG Engine.jmeter.JavaVM] JavaVM output: java version "1.8.0_251"
+Java(TM) SE Runtime Environment (build 1.8.0_251-b08)
+Java HotSpot(TM) 64-Bit Server VM (build 25.251-b08, mixed mode)
+
+[2020-04-20 23:37:42,964 DEBUG Engine.jmeter.TclLibrary] Checking if TCL_LIBRARY variable is present in environment
+[2020-04-20 23:37:42,964 DEBUG Engine.jmeter.TclLibrary] TCL_LIBRARY environment variable is present
+[2020-04-20 23:37:42,964 DEBUG Engine.jmeter.JMeter] Trying JMeter..
+[2020-04-20 23:37:42,965 DEBUG root] Executing shell: ['C:\\Users\\myper\\.bzt\\jmeter-taurus\\5.2.1\\bin\\jmeter.bat', '-j', 'C:\\Users\\myper\\AppData\\Local\\Temp\\jmeterxi8czkxmlog', '--version'] at .
+[2020-04-20 23:37:43,190 DEBUG urllib3.connectionpool] https://gettaurus.org:443 "GET /updates/?version=1.14.2&installID=windows-1c1b0d6bad78 HTTP/1.1" 200 40
+[2020-04-20 23:37:43,191 DEBUG Engine] Taurus updates info: {'latest': '1.14.2', 'needsUpgrade': False}
+[2020-04-20 23:37:43,191 DEBUG Engine] Installation is up-to-date
+[2020-04-20 23:37:45,364 DEBUG Engine.jmeter.JMeter] JMeter check:     _    ____   _    ____ _   _ _____       _ __  __ _____ _____ _____ ____
+   / \  |  _ \ / \  / ___| | | | ____|     | |  \/  | ____|_   _| ____|  _ \
+  / _ \ | |_) / _ \| |   | |_| |  _|    _  | | |\/| |  _|   | | |  _| | |_) |
+ / ___ \|  __/ ___ \ |___|  _  | |___  | |_| | |  | | |___  | | | |___|  _ <
+/_/   \_\_| /_/   \_\____|_| |_|_____|  \___/|_|  |_|_____| |_| |_____|_| \_\ 5.2.1
+
+Copyright (c) 1999-2019 The Apache Software Foundation
+
+ / 
+[2020-04-20 23:37:45,403 DEBUG Engine] New artifact filename: C:\Repos\GitHub\jmeter\2020-04-20_23-37-41.984795\kpi.jtl
+[2020-04-20 23:37:45,406 DEBUG Engine] New artifact filename: C:\Repos\GitHub\jmeter\2020-04-20_23-37-41.984795\error.jtl
+[2020-04-20 23:37:45,417 DEBUG Engine.jmeter.LoadSettingsProcessor] Load: LoadSpec(concurrency=None, throughput=None, ramp_up=None, hold=0, iterations=1, duration=None, steps=None)
+[2020-04-20 23:37:45,417 DEBUG Engine.jmeter.LoadSettingsProcessor] Thread group detection: duration not found, regular ThreadGroup will be used
+[2020-04-20 23:37:45,418 DEBUG Engine.jmeter.LoadSettingsProcessor] No iterations/concurrency/duration found, thread group modification is skipped
+[2020-04-20 23:37:45,418 DEBUG JMX] Saving JMX to: C:\Repos\GitHub\jmeter\modified_atlasfinal-1.jmx
+[2020-04-20 23:37:45,424 DEBUG root] Executing shell: ['C:\\Users\\myper\\.bzt\\jmeter-taurus\\5.2.1\\bin\\PluginsManagerCMD.bat', 'install-for-jmx', 'C:\\Repos\\GitHub\\jmeter\\modified_atlasfinal-1.jmx'] at .
+[2020-04-20 23:37:50,205 DEBUG Engine.jmeter.JMeter] Try to detect plugins for C:\Repos\GitHub\jmeter\modified_atlasfinal-1.jmx
+2020-04-20 23:37:47,439 INFO o.j.r.PluginManagerCMD: Command is: install-for-jmx
+2020-04-20 23:37:47,971 INFO o.j.r.JARSourceHTTP: Found cached repo
+2020-04-20 23:37:48,225 INFO o.j.r.PluginManager: Plugins Status: [jpgc-graphs-basic=2.0, jpgc-graphs-additional=2.0, jpgc-functions=2.1, jpgc-casutg=2.9, jpgc-dummy=0.4, jpgc-ffw=2.0, jpgc-fifo=0.2, jpgc-json=2.7, jpgc-prmctl=0.4, jpgc-perfmon=2.1, jpgc-plugins-manager=1.3, jpgc-tst=2.5, jmeter-core=5.2.1, jmeter-ftp=5.2.1, jmeter-http=5.2.1, jmeter-jdbc=5.2.1, jmeter-jms=5.2.1, jmeter-junit=5.2.1, jmeter-java=5.2.1, jmeter-ldap=5.2.1, jmeter-mail=5.2.1, jmeter-mongodb=5.2.1, jmeter-native=5.2.1, jmeter-tcp=5.2.1, jmeter-components=5.2.1, jpgc-standard=2.0]
+2020-04-20 23:37:48,228 INFO o.j.r.PluginManagerCMD: Params line is: C:\Repos\GitHub\jmeter\modified_atlasfinal-1.jmx
+2020-04-20 23:37:48,797 INFO o.a.j.s.SaveService: Testplan (JMX) version: 2.2. Testlog (JTL) version: 2.2
+2020-04-20 23:37:48,825 INFO o.a.j.s.SaveService: Using SaveService properties file encoding UTF-8
+2020-04-20 23:37:48,831 INFO o.a.j.s.SaveService: Using SaveService properties version 5.0
+2020-04-20 23:37:49,218 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/html is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2020-04-20 23:37:49,221 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xhtml+xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2020-04-20 23:37:49,223 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2020-04-20 23:37:49,223 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2020-04-20 23:37:49,224 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/vnd.wap.wml is org.apache.jmeter.protocol.http.parser.RegexpHTMLParser
+2020-04-20 23:37:49,224 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/css is org.apache.jmeter.protocol.http.parser.CssParser
+2020-04-20 23:37:49,441 INFO o.j.r.PluginManager: Finishing without changes
+
+
+[2020-04-20 23:37:50,206 DEBUG Engine] New artifact filename: C:\Repos\GitHub\jmeter\2020-04-20_23-37-41.984795\jmeter.out
+[2020-04-20 23:37:50,207 DEBUG Engine] New artifact filename: C:\Repos\GitHub\jmeter\2020-04-20_23-37-41.984795\jmeter.err
+[2020-04-20 23:37:50,212 DEBUG Engine] Module config: final-stats {'class': 'bzt.modules.reporting.FinalStatus'}
+[2020-04-20 23:37:50,212 DEBUG root] Importing module: bzt.modules.reporting
+[2020-04-20 23:37:50,239 DEBUG root] Loading class: 'FinalStatus' from <module 'bzt.modules.reporting' from 'C:\\MyPrograms\\Taurus\\pkgs\\bzt\\modules\\reporting.py'>
+[2020-04-20 23:37:50,239 DEBUG Engine] Module config: console {'class': 'bzt.modules.console.ConsoleStatusReporter'}
+[2020-04-20 23:37:50,239 DEBUG root] Importing module: bzt.modules.console
+[2020-04-20 23:37:50,239 DEBUG root] Loading class: 'ConsoleStatusReporter' from <module 'bzt.modules.console' from 'C:\\MyPrograms\\Taurus\\pkgs\\bzt\\modules\\console.py'>
+[2020-04-20 23:37:50,240 DEBUG Engine.console] Can't use 'console' screen, trying 'gui'
+[2020-04-20 23:37:50,250 DEBUG Engine.Configuration] Dumping YAML config into C:\Repos\GitHub\jmeter\2020-04-20_23-37-41.984795\effective.yml
+[2020-04-20 23:37:50,295 DEBUG Engine.Configuration] Dumping JSON config into C:\Repos\GitHub\jmeter\2020-04-20_23-37-41.984795\effective.json
+[2020-04-20 23:37:50,296 INFO Engine] Starting...
+[2020-04-20 23:37:50,296 DEBUG Engine] Startup <bzt.modules.monitoring.Monitoring object at 0x0000020E23B21A48>
+[2020-04-20 23:37:50,296 DEBUG Engine] Startup <bzt.modules.aggregator.ConsolidatingAggregator object at 0x0000020E23B288C8>
+[2020-04-20 23:37:50,296 DEBUG Engine] Startup <bzt.modules.reporting.FinalStatus object at 0x0000020E22FFDB48>
+[2020-04-20 23:37:50,296 DEBUG Engine] Startup <bzt.modules.console.ConsoleStatusReporter object at 0x0000020E2AA41AC8>
+[2020-04-20 23:37:50,297 INFO Engine.console] Waiting for results...
+[2020-04-20 23:37:50,297 DEBUG Engine] Startup <bzt.modules.provisioning.Local object at 0x0000020E2A896308>
+[2020-04-20 23:37:50,297 DEBUG Engine.local] Delay setup for jmeter/atlasfinal.jmx: 0(start-at) + 0(delay) = 0
+[2020-04-20 23:37:50,299 DEBUG Engine.Configuration] Dumping YAML config into C:\Repos\GitHub\jmeter\2020-04-20_23-37-41.984795\effective.yml
+[2020-04-20 23:37:50,325 DEBUG Engine.Configuration] Dumping JSON config into C:\Repos\GitHub\jmeter\2020-04-20_23-37-41.984795\effective.json
+[2020-04-20 23:37:50,326 DEBUG root] Leveling down log file verbosity to INFO, use -v option to have DEBUG messages enabled
+[2020-04-20 23:37:50,326 DEBUG root] Leveled up log file verbosity
+[2020-04-20 23:37:50,326 DEBUG root] Executing shell: ['C:\\Users\\myper\\.bzt\\jmeter-taurus\\5.2.1\\bin\\jmeter.bat', '-t', 'C:\\Repos\\GitHub\\jmeter\\modified_atlasfinal-1.jmx', '-j', 'C:\\Repos\\GitHub\\jmeter\\2020-04-20_23-37-41.984795\\jmeter.log', '-q', 'C:\\Repos\\GitHub\\jmeter\\2020-04-20_23-37-41.984795\\jmeter-bzt.properties', '-n'] at C:\Repos\GitHub\jmeter
+[2020-04-20 23:37:50,330 DEBUG Engine.local] Starting execution: jmeter/atlasfinal.jmx, rest of available slots: 9223372036854775806
+[2020-04-20 23:37:50,330 DEBUG root] Leveling down log file verbosity to INFO, use -v option to have DEBUG messages enabled
+[2020-04-20 23:37:50,586 INFO Engine.console] Did not mute console logging
+[2020-04-20 23:37:51,283 INFO Engine.console] Waiting for finish...
+[2020-04-21 00:08:00,863 WARNING Engine] Please wait for graceful shutdown...
+[2020-04-21 00:08:00,864 DEBUG root] Leveled up log file verbosity
+[2020-04-21 00:08:00,864 INFO Engine] Shutting down...
+[2020-04-21 00:08:00,864 DEBUG Engine] Current stop reason: None
+[2020-04-21 00:08:00,864 DEBUG Engine.local] Shutdown jmeter/atlasfinal.jmx
+[2020-04-21 00:08:05,237 DEBUG Engine.console] No logger_handler or orig_stream was detected
+[2020-04-21 00:08:05,238 DEBUG Engine.Configuration] Dumping YAML config into C:\Repos\GitHub\jmeter\2020-04-20_23-37-41.984795\effective.yml
+[2020-04-21 00:08:05,255 DEBUG Engine.Configuration] Dumping JSON config into C:\Repos\GitHub\jmeter\2020-04-20_23-37-41.984795\effective.json
+[2020-04-21 00:08:05,256 INFO Engine] Post-processing...
+[2020-04-21 00:08:05,256 DEBUG Engine.local] Post-process jmeter/atlasfinal.jmx
+[2020-04-21 00:08:05,257 DEBUG Engine] Add existing artifact (move=True): C:\Repos\GitHub\jmeter\modified_atlasfinal-1.jmx
+[2020-04-21 00:08:05,257 DEBUG Engine] Moving C:\Repos\GitHub\jmeter\modified_atlasfinal-1.jmx to C:\Repos\GitHub\jmeter\2020-04-20_23-37-41.984795\modified_atlasfinal-1.jmx
+[2020-04-21 00:08:05,258 DEBUG Engine.jmeter.JTLReader] Buffer len: 2; Known errors count: 1
+[2020-04-21 00:08:05,258 DEBUG Engine.jmeter.JTLReader] Aggregating: 1587409678, 2 in buffer
+[2020-04-21 00:08:05,284 DEBUG Engine.jmeter.JTLReader] Buffer len: 1; Known errors count: 1
+[2020-04-21 00:08:05,352 DEBUG Engine.jmeter.JTLReader] Aggregating: 1587409679, 1 in buffer
+[2020-04-21 00:08:05,366 DEBUG Engine.jmeter.JTLReader] Buffer len: 0; Known errors count: 1
+[2020-04-21 00:08:05,366 DEBUG Engine.consolidator] Consolidator buffer[4]: dict_keys([1587409676, 1587409677, 1587409678, 1587409679])
+[2020-04-21 00:08:05,366 DEBUG Engine.consolidator] Merging into 1587409676
+[2020-04-21 00:08:05,366 DEBUG Engine.consolidator] Bypassing consolidation because of single result
+[2020-04-21 00:08:05,460 DEBUG Engine.consolidator] Processed datapoint: 1587409676/ConsolidatingAggregator@2259751700680
+[2020-04-21 00:08:05,461 DEBUG Engine.consolidator] Merging into 1587409677
+[2020-04-21 00:08:05,461 DEBUG Engine.consolidator] Bypassing consolidation because of single result
+[2020-04-21 00:08:05,607 DEBUG Engine.consolidator] Processed datapoint: 1587409677/ConsolidatingAggregator@2259751700680
+[2020-04-21 00:08:05,608 DEBUG Engine.consolidator] Merging into 1587409678
+[2020-04-21 00:08:05,608 DEBUG Engine.consolidator] Bypassing consolidation because of single result
+[2020-04-21 00:08:05,728 DEBUG Engine.consolidator] Processed datapoint: 1587409678/ConsolidatingAggregator@2259751700680
+[2020-04-21 00:08:05,728 DEBUG Engine.consolidator] Merging into 1587409679
+[2020-04-21 00:08:05,728 DEBUG Engine.consolidator] Bypassing consolidation because of single result
+[2020-04-21 00:08:05,869 DEBUG Engine.consolidator] Processed datapoint: 1587409679/ConsolidatingAggregator@2259751700680
+[2020-04-21 00:08:05,870 INFO Engine.final-stats] Test duration: 0:30:10
+[2020-04-21 00:08:05,870 INFO Engine.final-stats] Samples count: 140260, 0.00% failures
+[2020-04-21 00:08:05,871 INFO Engine.final-stats] Average times: total 0.106, latency 0.105, connect 0.024
+[2020-04-21 00:08:05,873 INFO Engine.final-stats] Percentiles:
++---------------+---------------+
+| Percentile, % | Resp. Time, s |
++---------------+---------------+
+|           0.0 |         0.012 |
+|          50.0 |         0.059 |
+|          90.0 |          0.17 |
+|          95.0 |         0.342 |
+|          99.0 |         1.077 |
+|          99.9 |         2.038 |
+|         100.0 |        21.248 |
++---------------+---------------+
+[2020-04-21 00:08:05,895 INFO Engine.final-stats] Request label stats:
++-----------------------------+--------+---------+--------+-------------------------------------------------------------------------------------------------------------------------------------------------------+
+| label                       | status |    succ | avg_rt | error                                                                                                                                                 |
++-----------------------------+--------+---------+--------+-------------------------------------------------------------------------------------------------------------------------------------------------------+
+| GET AcceptorBranches        |   OK   | 100.00% |  0.099 |                                                                                                                                                       |
+| GET IssuePointOrganizations |   OK   | 100.00% |  0.089 |                                                                                                                                                       |
+| GET IssuePoints             |  FAIL  |  99.99% |  0.101 | Non HTTP response message: Connect to webservice.uralsoccard.ru:9698 [webservice.uralsoccard.ru/212.49.123.173] failed: Connection timed out: connect |
+| GET ListAcceptorCategories  |  FAIL  |  99.99% |  0.089 | Non HTTP response message: Connect to webservice.uralsoccard.ru:9698 [webservice.uralsoccard.ru/212.49.123.173] failed: Connection timed out: connect |
+| GET ListAcceptors           |  FAIL  |  99.99% |  0.123 | Non HTTP response message: Connect to webservice.uralsoccard.ru:9698 [webservice.uralsoccard.ru/212.49.123.173] failed: Connection timed out: connect |
+| GET ListLocalities          |   OK   | 100.00% |  0.120 |                                                                                                                                                       |
+| GET ListLoyaltyPrograms     |  FAIL  |  99.99% |  0.116 | Non HTTP response message: Connect to webservice.uralsoccard.ru:9698 [webservice.uralsoccard.ru/212.49.123.173] failed: Connection timed out: connect |
+| GET LoyaltyProgramBranches  |   OK   | 100.00% |  0.110 |                                                                                                                                                       |
++-----------------------------+--------+---------+--------+-------------------------------------------------------------------------------------------------------------------------------------------------------+
+[2020-04-21 00:08:05,896 DEBUG Engine.console] No logger_handler or orig_stream was detected
+[2020-04-21 00:08:05,898 DEBUG Engine.Configuration] Dumping YAML config into C:\Repos\GitHub\jmeter\2020-04-20_23-37-41.984795\effective.yml
+[2020-04-21 00:08:05,931 DEBUG Engine.Configuration] Dumping JSON config into C:\Repos\GitHub\jmeter\2020-04-20_23-37-41.984795\effective.json
+[2020-04-21 00:08:05,933 INFO root] Artifacts dir: C:\Repos\GitHub\jmeter\2020-04-20_23-37-41.984795
+[2020-04-21 00:08:05,934 INFO root] Done performing with code: 0
+[2020-04-21 00:08:05,934 DEBUG root] Closing log handler: C:\Repos\GitHub\jmeter\2020-04-20_23-37-41.984795\bzt.log

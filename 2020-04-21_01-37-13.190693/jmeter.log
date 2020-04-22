@@ -1,0 +1,136 @@
+2020-04-21 01:37:20,623 INFO o.a.j.u.JMeterUtils: Setting Locale to en_EN
+2020-04-21 01:37:20,635 INFO o.a.j.JMeter: Loading user properties from: C:\Users\myper\.bzt\jmeter-taurus\5.2.1\bin\user.properties
+2020-04-21 01:37:20,635 INFO o.a.j.JMeter: Loading system properties from: C:\Users\myper\.bzt\jmeter-taurus\5.2.1\bin\system.properties
+2020-04-21 01:37:20,636 INFO o.a.j.JMeter: Loading additional properties from: C:\Repos\GitHub\jmeter\2020-04-21_01-37-13.190693\jmeter-bzt.properties
+2020-04-21 01:37:20,641 INFO o.a.j.JMeter: Copyright (c) 1998-2019 The Apache Software Foundation
+2020-04-21 01:37:20,642 INFO o.a.j.JMeter: Version 5.2.1
+2020-04-21 01:37:20,642 INFO o.a.j.JMeter: java.version=1.8.0_251
+2020-04-21 01:37:20,642 INFO o.a.j.JMeter: java.vm.name=Java HotSpot(TM) 64-Bit Server VM
+2020-04-21 01:37:20,642 INFO o.a.j.JMeter: os.name=Windows 10
+2020-04-21 01:37:20,642 INFO o.a.j.JMeter: os.arch=amd64
+2020-04-21 01:37:20,642 INFO o.a.j.JMeter: os.version=10.0
+2020-04-21 01:37:20,642 INFO o.a.j.JMeter: file.encoding=Cp1251
+2020-04-21 01:37:20,642 INFO o.a.j.JMeter: java.awt.headless=true
+2020-04-21 01:37:20,642 INFO o.a.j.JMeter: Max memory     =1073741824
+2020-04-21 01:37:20,642 INFO o.a.j.JMeter: Available Processors =4
+2020-04-21 01:37:20,645 INFO o.a.j.JMeter: Default Locale=English (EN)
+2020-04-21 01:37:20,645 INFO o.a.j.JMeter: JMeter  Locale=English (EN)
+2020-04-21 01:37:20,645 INFO o.a.j.JMeter: JMeterHome=C:\Users\myper\.bzt\jmeter-taurus\5.2.1
+2020-04-21 01:37:20,645 INFO o.a.j.JMeter: user.dir  =C:\Repos\GitHub\jmeter
+2020-04-21 01:37:20,646 INFO o.a.j.JMeter: PWD       =C:\Repos\GitHub\jmeter
+2020-04-21 01:37:20,647 INFO o.a.j.JMeter: IP: 192.168.1.150 Name: DESKTOP-RVNENMJ FullName: DESKTOP-RVNENMJ
+2020-04-21 01:37:20,647 INFO o.a.j.JMeter: user.classpath=C:/Repos/GitHub/jmeter/2020-04-21_01-37-13.190693;C:/Repos/GitHub/jmeter
+2020-04-21 01:37:20,647 INFO o.a.j.JMeter: Adding to classpath and loader: C:/Repos/GitHub/jmeter/2020-04-21_01-37-13.190693
+2020-04-21 01:37:20,648 INFO o.a.j.JMeter: Adding to classpath and loader: C:/Repos/GitHub/jmeter
+2020-04-21 01:37:20,654 INFO o.a.j.s.FileServer: Default base='C:\Repos\GitHub\jmeter'
+2020-04-21 01:37:20,658 INFO o.a.j.s.FileServer: Set new base='C:\Repos\GitHub\jmeter'
+2020-04-21 01:37:20,776 INFO o.a.j.s.SaveService: Testplan (JMX) version: 2.2. Testlog (JTL) version: 2.2
+2020-04-21 01:37:20,782 INFO o.a.j.s.SaveService: Using SaveService properties file encoding UTF-8
+2020-04-21 01:37:20,787 INFO o.a.j.s.SaveService: Using SaveService properties version 5.0
+2020-04-21 01:37:20,794 INFO o.a.j.s.SaveService: Loading file: C:\Repos\GitHub\jmeter\modified_atlasfinal-1.jmx
+2020-04-21 01:37:20,850 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/html is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2020-04-21 01:37:20,851 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xhtml+xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2020-04-21 01:37:20,851 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2020-04-21 01:37:20,851 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2020-04-21 01:37:20,851 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/vnd.wap.wml is org.apache.jmeter.protocol.http.parser.RegexpHTMLParser
+2020-04-21 01:37:20,851 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/css is org.apache.jmeter.protocol.http.parser.CssParser
+2020-04-21 01:37:21,015 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2020-04-21 01:37:21,016 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2020-04-21 01:37:21,017 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2020-04-21 01:37:21,024 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must contain the string: '.functions.'
+2020-04-21 01:37:21,024 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must not contain the string: '.gui.'
+2020-04-21 01:37:23,976 INFO o.a.j.JMeter: Running test (1587415043976)
+2020-04-21 01:37:24,006 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : portal api
+2020-04-21 01:37:24,006 INFO o.a.j.e.StandardJMeterEngine: Starting 80 threads for group portal api.
+2020-04-21 01:37:24,006 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2020-04-21 01:37:24,006 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=80 ramp-up=80 delayedStart=false
+2020-04-21 01:37:24,075 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2020-04-21 01:37:24,075 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2020-04-21 01:37:25,007 INFO o.a.j.t.JMeterThread: Thread started: portal api 1-1
+2020-04-21 01:37:25,036 INFO o.a.j.p.h.s.HTTPHCAbstractImpl: Local host = DESKTOP-RVNENMJ
+2020-04-21 01:37:25,043 INFO o.a.j.p.h.s.HTTPHC4Impl: HTTP request retry count = 0
+2020-04-21 01:37:25,045 INFO o.a.j.s.SampleResult: Note: Sample TimeStamps are START times
+2020-04-21 01:37:25,045 INFO o.a.j.s.SampleResult: sampleresult.default.encoding is set to UTF-8
+2020-04-21 01:37:25,045 INFO o.a.j.s.SampleResult: sampleresult.useNanoTime=true
+2020-04-21 01:37:25,045 INFO o.a.j.s.SampleResult: sampleresult.nanoThreadSleep=5000
+2020-04-21 01:37:26,007 INFO o.a.j.t.JMeterThread: Thread started: portal api 1-2
+2020-04-21 01:37:27,007 INFO o.a.j.t.JMeterThread: Thread started: portal api 1-3
+2020-04-21 01:37:28,007 INFO o.a.j.t.JMeterThread: Thread started: portal api 1-4
+2020-04-21 01:37:29,007 INFO o.a.j.t.JMeterThread: Thread started: portal api 1-5
+2020-04-21 01:37:30,007 INFO o.a.j.t.JMeterThread: Thread started: portal api 1-6
+2020-04-21 01:37:31,008 INFO o.a.j.t.JMeterThread: Thread started: portal api 1-7
+2020-04-21 01:37:32,006 INFO o.a.j.t.JMeterThread: Thread started: portal api 1-8
+2020-04-21 01:37:33,006 INFO o.a.j.t.JMeterThread: Thread started: portal api 1-9
+2020-04-21 01:37:33,025 INFO o.a.j.u.JsseSSLManager: Using default SSL protocol: TLS
+2020-04-21 01:37:33,025 INFO o.a.j.u.JsseSSLManager: SSL session context: per-thread
+2020-04-21 01:37:34,007 INFO o.a.j.t.JMeterThread: Thread started: portal api 1-10
+2020-04-21 01:37:35,006 INFO o.a.j.t.JMeterThread: Thread started: portal api 1-11
+2020-04-21 01:37:36,007 INFO o.a.j.t.JMeterThread: Thread started: portal api 1-12
+2020-04-21 01:37:37,006 INFO o.a.j.t.JMeterThread: Thread started: portal api 1-13
+2020-04-21 01:37:38,006 INFO o.a.j.t.JMeterThread: Thread started: portal api 1-14
+2020-04-21 01:37:39,006 INFO o.a.j.t.JMeterThread: Thread started: portal api 1-15
+2020-04-21 01:37:40,006 INFO o.a.j.t.JMeterThread: Thread started: portal api 1-16
+2020-04-21 01:37:41,006 INFO o.a.j.t.JMeterThread: Thread started: portal api 1-17
+2020-04-21 01:37:42,006 INFO o.a.j.t.JMeterThread: Thread started: portal api 1-18
+2020-04-21 01:37:43,006 INFO o.a.j.t.JMeterThread: Thread started: portal api 1-19
+2020-04-21 01:37:44,006 INFO o.a.j.t.JMeterThread: Thread started: portal api 1-20
+2020-04-21 01:37:45,012 INFO o.a.j.t.JMeterThread: Thread started: portal api 1-21
+2020-04-21 01:37:46,006 INFO o.a.j.t.JMeterThread: Thread started: portal api 1-22
+2020-04-21 01:37:47,006 INFO o.a.j.t.JMeterThread: Thread started: portal api 1-23
+2020-04-21 01:37:48,006 INFO o.a.j.t.JMeterThread: Thread started: portal api 1-24
+2020-04-21 01:37:49,007 INFO o.a.j.t.JMeterThread: Thread started: portal api 1-25
+2020-04-21 01:37:50,009 INFO o.a.j.t.JMeterThread: Thread started: portal api 1-26
+2020-04-21 01:37:51,006 INFO o.a.j.t.JMeterThread: Thread started: portal api 1-27
+2020-04-21 01:37:52,006 INFO o.a.j.t.JMeterThread: Thread started: portal api 1-28
+2020-04-21 01:37:53,006 INFO o.a.j.t.JMeterThread: Thread started: portal api 1-29
+2020-04-21 01:37:54,006 INFO o.a.j.t.JMeterThread: Thread started: portal api 1-30
+2020-04-21 01:37:55,007 INFO o.a.j.t.JMeterThread: Thread started: portal api 1-31
+2020-04-21 01:37:56,006 INFO o.a.j.t.JMeterThread: Thread started: portal api 1-32
+2020-04-21 01:37:57,007 INFO o.a.j.t.JMeterThread: Thread started: portal api 1-33
+2020-04-21 01:37:58,007 INFO o.a.j.t.JMeterThread: Thread started: portal api 1-34
+2020-04-21 01:37:59,007 INFO o.a.j.t.JMeterThread: Thread started: portal api 1-35
+2020-04-21 01:38:00,023 INFO o.a.j.t.JMeterThread: Thread started: portal api 1-36
+2020-04-21 01:38:01,007 INFO o.a.j.t.JMeterThread: Thread started: portal api 1-37
+2020-04-21 01:38:02,006 INFO o.a.j.t.JMeterThread: Thread started: portal api 1-38
+2020-04-21 01:38:03,006 INFO o.a.j.t.JMeterThread: Thread started: portal api 1-39
+2020-04-21 01:38:04,006 INFO o.a.j.t.JMeterThread: Thread started: portal api 1-40
+2020-04-21 01:38:05,007 INFO o.a.j.t.JMeterThread: Thread started: portal api 1-41
+2020-04-21 01:38:06,007 INFO o.a.j.t.JMeterThread: Thread started: portal api 1-42
+2020-04-21 01:38:07,006 INFO o.a.j.t.JMeterThread: Thread started: portal api 1-43
+2020-04-21 01:38:08,006 INFO o.a.j.t.JMeterThread: Thread started: portal api 1-44
+2020-04-21 01:38:09,006 INFO o.a.j.t.JMeterThread: Thread started: portal api 1-45
+2020-04-21 01:38:10,006 INFO o.a.j.t.JMeterThread: Thread started: portal api 1-46
+2020-04-21 01:38:11,006 INFO o.a.j.t.JMeterThread: Thread started: portal api 1-47
+2020-04-21 01:38:12,007 INFO o.a.j.t.JMeterThread: Thread started: portal api 1-48
+2020-04-21 01:38:13,006 INFO o.a.j.t.JMeterThread: Thread started: portal api 1-49
+2020-04-21 01:38:14,007 INFO o.a.j.t.JMeterThread: Thread started: portal api 1-50
+2020-04-21 01:38:15,015 INFO o.a.j.t.JMeterThread: Thread started: portal api 1-51
+2020-04-21 01:38:16,006 INFO o.a.j.t.JMeterThread: Thread started: portal api 1-52
+2020-04-21 01:38:17,014 INFO o.a.j.t.JMeterThread: Thread started: portal api 1-53
+2020-04-21 01:38:18,006 INFO o.a.j.t.JMeterThread: Thread started: portal api 1-54
+2020-04-21 01:38:19,007 INFO o.a.j.t.JMeterThread: Thread started: portal api 1-55
+2020-04-21 01:38:20,006 INFO o.a.j.t.JMeterThread: Thread started: portal api 1-56
+2020-04-21 01:38:21,010 INFO o.a.j.t.JMeterThread: Thread started: portal api 1-57
+2020-04-21 01:38:22,006 INFO o.a.j.t.JMeterThread: Thread started: portal api 1-58
+2020-04-21 01:38:23,006 INFO o.a.j.t.JMeterThread: Thread started: portal api 1-59
+2020-04-21 01:38:24,006 INFO o.a.j.t.JMeterThread: Thread started: portal api 1-60
+2020-04-21 01:38:25,007 INFO o.a.j.t.JMeterThread: Thread started: portal api 1-61
+2020-04-21 01:38:26,010 INFO o.a.j.t.JMeterThread: Thread started: portal api 1-62
+2020-04-21 01:38:27,006 INFO o.a.j.t.JMeterThread: Thread started: portal api 1-63
+2020-04-21 01:38:28,006 INFO o.a.j.t.JMeterThread: Thread started: portal api 1-64
+2020-04-21 01:38:29,006 INFO o.a.j.t.JMeterThread: Thread started: portal api 1-65
+2020-04-21 01:38:30,006 INFO o.a.j.t.JMeterThread: Thread started: portal api 1-66
+2020-04-21 01:38:31,006 INFO o.a.j.t.JMeterThread: Thread started: portal api 1-67
+2020-04-21 01:38:32,011 INFO o.a.j.t.JMeterThread: Thread started: portal api 1-68
+2020-04-21 01:38:33,007 INFO o.a.j.t.JMeterThread: Thread started: portal api 1-69
+2020-04-21 01:38:34,010 INFO o.a.j.t.JMeterThread: Thread started: portal api 1-70
+2020-04-21 01:38:35,006 INFO o.a.j.t.JMeterThread: Thread started: portal api 1-71
+2020-04-21 01:38:36,006 INFO o.a.j.t.JMeterThread: Thread started: portal api 1-72
+2020-04-21 01:38:37,011 INFO o.a.j.t.JMeterThread: Thread started: portal api 1-73
+2020-04-21 01:38:38,016 INFO o.a.j.t.JMeterThread: Thread started: portal api 1-74
+2020-04-21 01:38:39,007 INFO o.a.j.t.JMeterThread: Thread started: portal api 1-75
+2020-04-21 01:38:40,006 INFO o.a.j.t.JMeterThread: Thread started: portal api 1-76
+2020-04-21 01:38:41,006 INFO o.a.j.t.JMeterThread: Thread started: portal api 1-77
+2020-04-21 01:38:42,006 INFO o.a.j.t.JMeterThread: Thread started: portal api 1-78
+2020-04-21 01:38:43,007 INFO o.a.j.t.JMeterThread: Thread started: portal api 1-79
+2020-04-21 01:38:44,006 INFO o.a.j.t.JMeterThread: Thread started: portal api 1-80

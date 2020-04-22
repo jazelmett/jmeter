@@ -1,0 +1,4 @@
+
+
+cd C:\MyPrograms\Jmeter\bin
+.\jmeter -n -t C:\Repos\GitHub\jmeter\atlasfinal.jmx -l C:\Repos\GitHub\jmeter\atlasfinal.jtl
