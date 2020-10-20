@@ -12,7 +12,7 @@
       <stringProp name="TestPlan.user_define_classpath"></stringProp>
     </TestPlan>
     <hashTree>
-      <ConfigTestElement guiclass="HttpDefaultsGui" testclass="ConfigTestElement" testname="tatarskih POST TargetedArticles" enabled="true">
+      <ConfigTestElement guiclass="HttpDefaultsGui" testclass="ConfigTestElement" testname="tatarskih POST TargetedArticles" enabled="false">
         <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" testname="User Defined Variables" enabled="true">
           <collectionProp name="Arguments.arguments"/>
         </elementProp>
@@ -40,7 +40,7 @@
         <stringProp name="HTTPSampler.response_timeout"></stringProp>
       </ConfigTestElement>
       <hashTree/>
-      <ThreadGroup guiclass="ThreadGroupGui" testclass="ThreadGroup" testname="Karanoyarsk" enabled="true">
+      <ThreadGroup guiclass="ThreadGroupGui" testclass="ThreadGroup" testname="Karanoyarsk" enabled="false">
         <stringProp name="ThreadGroup.on_sample_error">continue</stringProp>
         <elementProp name="ThreadGroup.main_controller" elementType="LoopController" guiclass="LoopControlPanel" testclass="LoopController" testname="Loop Controller" enabled="true">
           <boolProp name="LoopController.continue_forever">false</boolProp>
@@ -438,7 +438,7 @@
         </ResultCollector>
         <hashTree/>
       </hashTree>
-      <ThreadGroup guiclass="ThreadGroupGui" testclass="ThreadGroup" testname="POST TargetedArticles" enabled="false">
+      <ThreadGroup guiclass="ThreadGroupGui" testclass="ThreadGroup" testname="POST TargetedArticles" enabled="true">
         <stringProp name="ThreadGroup.on_sample_error">continue</stringProp>
         <elementProp name="ThreadGroup.main_controller" elementType="LoopController" guiclass="LoopControlPanel" testclass="LoopController" testname="Loop Controller" enabled="true">
           <boolProp name="LoopController.continue_forever">false</boolProp>
@@ -466,7 +466,7 @@
           </collectionProp>
         </HeaderManager>
         <hashTree/>
-        <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="TargetedArticles 200" enabled="true">
+        <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="TargetedArticles 200" enabled="false">
           <boolProp name="HTTPSampler.postBodyRaw">true</boolProp>
           <elementProp name="HTTPsampler.Arguments" elementType="Arguments">
             <collectionProp name="Arguments.arguments">
@@ -522,7 +522,40 @@
           <stringProp name="HTTPSampler.response_timeout"></stringProp>
         </HTTPSamplerProxy>
         <hashTree/>
-        <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="TargetedArticles 400" enabled="true">
+        <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="TargetedArticles 200" enabled="true">
+          <boolProp name="HTTPSampler.postBodyRaw">true</boolProp>
+          <elementProp name="HTTPsampler.Arguments" elementType="Arguments">
+            <collectionProp name="Arguments.arguments">
+              <elementProp name="" elementType="HTTPArgument">
+                <boolProp name="HTTPArgument.always_encode">false</boolProp>
+                <stringProp name="Argument.value">&lt;ClsElementLogList&gt;&#xd;
+  &lt;ClsElementLog ClassificatorVersionID=&quot;7979&quot; ClassificatorElementID=&quot;203286690&quot; FullBusinessCode=&quot;12206R3030&quot; Name=&quot;Ежемесячное денежное вознаграждение за классное руководство педа&quot; Description=&quot;Ежемесячное денежное вознаграждение за классное руководство педагогическим работникам общеобразовательных организаций&quot; UpdateOperation=&quot;INS&quot; DateTime=&quot;2020-03-17T14:23:32.3100000&quot; UserName=&quot;Дедова Н.В.&quot; SQLUserName=&quot;dedovanv&quot; SQLHostName=&quot;MF-WS-3217&quot; Comment=&quot;Создан элемент под узлом 1220000000&quot;&gt;&#xd;
+    &lt;ClassificatorElement ClassificatorElementID=&quot;203286690&quot; ClassificatorVersionID=&quot;7979&quot; FullBusinessCode=&quot;12206R3030&quot; SystemCode=&quot;0000012&quot; FullSystemCode=&quot;0920000012&quot; ParentClassificatorElementID=&quot;203285426&quot; Name=&quot;Ежемесячное денежное вознаграждение за классное руководство педа&quot; Description=&quot;Ежемесячное денежное вознаграждение за классное руководство педагогическим работникам общеобразовательных организаций&quot; Multiplier=&quot;1&quot; UniqueID=&quot;B16B5AEC-1AA7-4107-9215-FC0537C2E518&quot; ParentList=&quot;09,092&quot; Depth=&quot;4&quot; Mask=&quot;0920000012%&quot; IsGroup=&quot;0&quot; IsGlobalGroup=&quot;0&quot; ChangeId=&quot;1870534&quot; /&gt;&#xd;
+  &lt;/ClsElementLog&gt;&#xd;
+  &lt;ClsElementLog ClassificatorVersionID=&quot;7979&quot; ClassificatorElementID=&quot;203286691&quot; FullBusinessCode=&quot;1321258110&quot; Name=&quot;Приобретение аппаратов для искусственной вентиляции легких для м&quot; Description=&quot;Приобретение аппаратов для искусственной вентиляции легких для медицинских организаций за счет средств резервного фонда Правительства Российской Федерации&quot; UpdateOperation=&quot;INS&quot; DateTime=&quot;2020-03-17T14:23:32.3430000&quot; UserName=&quot;Дедова Н.В.&quot; SQLUserName=&quot;dedovanv&quot; SQLHostName=&quot;MF-WS-3217&quot; Comment=&quot;Создан элемент под узлом 1320000000&quot;&gt;&#xd;
+    &lt;ClassificatorElement ClassificatorElementID=&quot;203286691&quot; ClassificatorVersionID=&quot;7979&quot; FullBusinessCode=&quot;1321258110&quot; SystemCode=&quot;000000F&quot; FullSystemCode=&quot;0A2000000F&quot; ParentClassificatorElementID=&quot;203285570&quot; Name=&quot;Приобретение аппаратов для искусственной вентиляции легких для м&quot; Description=&quot;Приобретение аппаратов для искусственной вентиляции легких для медицинских организаций за счет средств резервного фонда Правительства Российской Федерации&quot; Multiplier=&quot;1&quot; UniqueID=&quot;22CEFC5F-67A9-4C71-B2AB-B98906129DAD&quot; ParentList=&quot;0A,0A2&quot; Depth=&quot;4&quot; Mask=&quot;0A2000000F%&quot; IsGroup=&quot;0&quot; IsGlobalGroup=&quot;0&quot; ChangeId=&quot;1870535&quot; /&gt;&#xd;
+  &lt;/ClsElementLog&gt;&#xd;
+  &lt;/ClsElementLogList&gt;</stringProp>
+                <stringProp name="Argument.metadata">=</stringProp>
+              </elementProp>
+            </collectionProp>
+          </elementProp>
+          <stringProp name="HTTPSampler.domain"></stringProp>
+          <stringProp name="HTTPSampler.port"></stringProp>
+          <stringProp name="HTTPSampler.protocol"></stringProp>
+          <stringProp name="HTTPSampler.contentEncoding"></stringProp>
+          <stringProp name="HTTPSampler.path">/api/TargetedArticles</stringProp>
+          <stringProp name="HTTPSampler.method">POST</stringProp>
+          <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
+          <boolProp name="HTTPSampler.auto_redirects">false</boolProp>
+          <boolProp name="HTTPSampler.use_keepalive">true</boolProp>
+          <boolProp name="HTTPSampler.DO_MULTIPART_POST">false</boolProp>
+          <stringProp name="HTTPSampler.embedded_url_re"></stringProp>
+          <stringProp name="HTTPSampler.connect_timeout"></stringProp>
+          <stringProp name="HTTPSampler.response_timeout"></stringProp>
+        </HTTPSamplerProxy>
+        <hashTree/>
+        <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="TargetedArticles 400" enabled="false">
           <boolProp name="HTTPSampler.postBodyRaw">true</boolProp>
           <elementProp name="HTTPsampler.Arguments" elementType="Arguments">
             <collectionProp name="Arguments.arguments">
