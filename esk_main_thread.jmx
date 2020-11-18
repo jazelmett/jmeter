@@ -2676,12 +2676,12 @@
  	&quot;transactionTimeStamp&quot;: &quot;2013-00-25T18:25+03:00&quot;,&#xd;
  	&quot;numCardESK&quot;:&quot;1111111111112222&quot;,&#xd;
  	&quot;positions&quot;: [&#xd;
-      {&#xd;
+{&#xd;
  	    &quot;EAN&quot;:&quot;4600020010132&quot;,&#xd;
  	    &quot;Quantity&quot;: 1,&#xd;
  	    &quot;OKEI&quot;: 164,&#xd;
  	    &quot;Price&quot;: 258.6&#xd;
-      }&#xd;
+}&#xd;
      ]&#xd;
  }&#xd;
 ]&#xd;
