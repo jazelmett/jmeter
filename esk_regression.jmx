@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<jmeterTestPlan version="1.2" properties="5.0" jmeter="5.2.1">
+<jmeterTestPlan version="1.2" properties="5.0" jmeter="5.4.1">
   <hashTree>
     <TestPlan guiclass="TestPlanGui" testclass="TestPlan" testname="esk regression" enabled="true">
       <stringProp name="TestPlan.comments"></stringProp>
@@ -27,7 +27,7 @@
         <stringProp name="HTTPSampler.response_timeout"></stringProp>
       </ConfigTestElement>
       <hashTree/>
-      <ConfigTestElement guiclass="HttpDefaultsGui" testclass="ConfigTestElement" testname="[stage] portal" enabled="true">
+      <ConfigTestElement guiclass="HttpDefaultsGui" testclass="ConfigTestElement" testname="[stage] portal" enabled="false">
         <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" testname="User Defined Variables" enabled="true">
           <collectionProp name="Arguments.arguments"/>
         </elementProp>
@@ -72,7 +72,7 @@
         <stringProp name="HTTPSampler.response_timeout"></stringProp>
       </ConfigTestElement>
       <hashTree/>
-      <ConfigTestElement guiclass="HttpDefaultsGui" testclass="ConfigTestElement" testname="[stage] lk" enabled="false">
+      <ConfigTestElement guiclass="HttpDefaultsGui" testclass="ConfigTestElement" testname="[stage] lk" enabled="true">
         <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" testname="User Defined Variables" enabled="true">
           <collectionProp name="Arguments.arguments"/>
         </elementProp>
@@ -6475,7 +6475,7 @@ https://wiki.nposapfir.ru/doku.php?id=atlas_projects:usc_api_portal_client_creat
           </hashTree>
         </hashTree>
       </hashTree>
-      <ThreadGroup guiclass="ThreadGroupGui" testclass="ThreadGroup" testname="2. portal" enabled="true">
+      <ThreadGroup guiclass="ThreadGroupGui" testclass="ThreadGroup" testname="2. portal" enabled="false">
         <stringProp name="ThreadGroup.on_sample_error">continue</stringProp>
         <elementProp name="ThreadGroup.main_controller" elementType="LoopController" guiclass="LoopControlPanel" testclass="LoopController" testname="Loop Controller" enabled="true">
           <boolProp name="LoopController.continue_forever">false</boolProp>
@@ -19576,7 +19576,7 @@ https://wiki.nposapfir.ru/doku.php?id=atlas_projects:usc_api_portal_client_creat
           </hashTree>
         </hashTree>
       </hashTree>
-      <ThreadGroup guiclass="ThreadGroupGui" testclass="ThreadGroup" testname="5. lk" enabled="false">
+      <ThreadGroup guiclass="ThreadGroupGui" testclass="ThreadGroup" testname="5. lk" enabled="true">
         <stringProp name="TestPlan.comments">БАНК</stringProp>
         <stringProp name="ThreadGroup.on_sample_error">continue</stringProp>
         <elementProp name="ThreadGroup.main_controller" elementType="LoopController" guiclass="LoopControlPanel" testclass="LoopController" testname="Loop Controller" enabled="true">
@@ -19681,7 +19681,7 @@ https://wiki.nposapfir.ru/doku.php?id=atlas_projects:usc_api_portal_client_creat
           </collectionProp>
         </HeaderManager>
         <hashTree/>
-        <HeaderManager guiclass="HeaderPanel" testclass="HeaderManager" testname="jwt authorize 694 stage TESTCASES" enabled="true">
+        <HeaderManager guiclass="HeaderPanel" testclass="HeaderManager" testname="jwt authorize 694 stage TESTCASES" enabled="false">
           <collectionProp name="HeaderManager.headers">
             <elementProp name="" elementType="Header">
               <stringProp name="Header.name">Authorization</stringProp>
@@ -19699,7 +19699,7 @@ https://wiki.nposapfir.ru/doku.php?id=atlas_projects:usc_api_portal_client_creat
           </collectionProp>
         </HeaderManager>
         <hashTree/>
-        <GenericController guiclass="LogicControllerGui" testclass="GenericController" testname="security" enabled="false"/>
+        <GenericController guiclass="LogicControllerGui" testclass="GenericController" testname="security" enabled="true"/>
         <hashTree>
           <GenericController guiclass="LogicControllerGui" testclass="GenericController" testname="1. GET Login" enabled="false"/>
           <hashTree>
@@ -21716,16 +21716,16 @@ https://wiki.nposapfir.ru/doku.php?id=atlas_projects:usc_api_portal_client_creat
               <hashTree/>
             </hashTree>
           </hashTree>
-          <GenericController guiclass="LogicControllerGui" testclass="GenericController" testname="5. POST Authorize [STAGE]" enabled="false"/>
+          <GenericController guiclass="LogicControllerGui" testclass="GenericController" testname="5. POST Authorize [STAGE]" enabled="true"/>
           <hashTree>
-            <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="new POST Authorize login type 1" enabled="false">
+            <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="new POST Authorize login type 1 card" enabled="true">
               <boolProp name="HTTPSampler.postBodyRaw">true</boolProp>
               <elementProp name="HTTPsampler.Arguments" elementType="Arguments">
                 <collectionProp name="Arguments.arguments">
                   <elementProp name="" elementType="HTTPArgument">
                     <boolProp name="HTTPArgument.always_encode">false</boolProp>
                     <stringProp name="Argument.value">{&#xd;
-   &quot;login&quot;: &quot;9620012000292496&quot;,&#xd;
+   &quot;login&quot;: &quot;9620012000302097&quot;,&#xd;
    &quot;loginType&quot;: 1,&#xd;
    &quot;passHash&quot;: &quot;$2a$05$IFgpOgFXEHMZCQt/Wxgg3ue9gyZG3Jsi2HsLAu5TWMkHTUUC2QZbG&quot;,&#xd;
    &quot;firebaseId&quot;: &quot;string2&quot;,&#xd;
@@ -21784,7 +21784,7 @@ https://wiki.nposapfir.ru/doku.php?id=atlas_projects:usc_api_portal_client_creat
               <stringProp name="HTTPSampler.response_timeout"></stringProp>
             </HTTPSamplerProxy>
             <hashTree/>
-            <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="new POST Authorize login type 3" enabled="true">
+            <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="new POST Authorize login type 3" enabled="false">
               <boolProp name="HTTPSampler.postBodyRaw">true</boolProp>
               <elementProp name="HTTPsampler.Arguments" elementType="Arguments">
                 <collectionProp name="Arguments.arguments">
@@ -22585,7 +22585,7 @@ https://wiki.nposapfir.ru/doku.php?id=atlas_projects:usc_api_portal_client_creat
           </HTTPSamplerProxy>
           <hashTree/>
         </hashTree>
-        <GenericController guiclass="LogicControllerGui" testclass="GenericController" testname="business" enabled="true"/>
+        <GenericController guiclass="LogicControllerGui" testclass="GenericController" testname="business" enabled="false"/>
         <hashTree>
           <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="1. GET HolderPhoto" enabled="false">
             <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" testname="User Defined Variables" enabled="true">
