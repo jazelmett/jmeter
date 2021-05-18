@@ -502,25 +502,6 @@
             <stringProp name="HTTPSampler.response_timeout"></stringProp>
           </HTTPSamplerProxy>
           <hashTree/>
-          <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="200. GET CheckClient. 13859715710" enabled="false">
-            <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" testname="User Defined Variables" enabled="true">
-              <collectionProp name="Arguments.arguments"/>
-            </elementProp>
-            <stringProp name="HTTPSampler.domain"></stringProp>
-            <stringProp name="HTTPSampler.port"></stringProp>
-            <stringProp name="HTTPSampler.protocol"></stringProp>
-            <stringProp name="HTTPSampler.contentEncoding">utf-8</stringProp>
-            <stringProp name="HTTPSampler.path">/Bank/API/1_0/CheckClient/13859715710</stringProp>
-            <stringProp name="HTTPSampler.method">GET</stringProp>
-            <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
-            <boolProp name="HTTPSampler.auto_redirects">false</boolProp>
-            <boolProp name="HTTPSampler.use_keepalive">true</boolProp>
-            <boolProp name="HTTPSampler.DO_MULTIPART_POST">false</boolProp>
-            <stringProp name="HTTPSampler.embedded_url_re"></stringProp>
-            <stringProp name="HTTPSampler.connect_timeout"></stringProp>
-            <stringProp name="HTTPSampler.response_timeout"></stringProp>
-          </HTTPSamplerProxy>
-          <hashTree/>
           <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="200. GET CheckClient. Корректный СНИЛС. Клиент в БД. Карта активна. 59492311630" enabled="false">
             <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" testname="User Defined Variables" enabled="true">
               <collectionProp name="Arguments.arguments"/>
@@ -3411,7 +3392,7 @@ https://wiki.nposapfir.ru/doku.php?id=atlas_projects:usc_api_portal_client_creat
             </collectionProp>
           </HeaderManager>
           <hashTree/>
-          <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="200. POST RegisterClient 2" enabled="true">
+          <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="200. POST RegisterClient 2" enabled="false">
             <boolProp name="HTTPSampler.postBodyRaw">true</boolProp>
             <elementProp name="HTTPsampler.Arguments" elementType="Arguments">
               <collectionProp name="Arguments.arguments">
@@ -7497,176 +7478,9 @@ https://wiki.nposapfir.ru/doku.php?id=atlas_projects:usc_api_portal_client_creat
     &quot;num&quot;: &quot;1235&quot;,&#xd;
     &quot;dateTime&quot;: &quot;2020-03-19T11:35Z&quot;&#xd;
   },&#xd;
-  &quot;accountHash&quot;: &quot;adadsadasdddssadadsadasdddssadadsadasdddssadadsadasdddssadadsadasdddssadadsadasdddssadadsadasdddssadadsadasdddssadadsadasdddssadadsadasdddssadadsadasdddssadadsadasdddssadadsadasdddssadadsadasdddssadadsadasdddssadadsadasdddssadadsadasdddssadadsadasdddssadadsadasdddssadadsadasdddssadadsadasdddssadadsadasdddssadadsadasdddssadadsadasdddssadadsadasdddssadadsadasdddssadadsadasdddssadadsadasdddssadadsadasdddssadadsadasdddssadadsadasdddssadadsadasdddssadadsadasdddssadadsadasdddssadadsadasdddssadadsadasdddssadadsadasdddssadadsadasdddssadadsadasdddssadadsadasdddssada&quot;&#xd;
+  &quot;accountHash&quot;: &quot;dsadasdddssadadsadasdddssadadsadasdddssadadsadasdddssadadsadasdddssadadsadasdddssadadsadasdddssadadsadasdddssadadsadasdddssadadsadasdddssadadsadasdddssadadsadasdddssadadsadasdddssadadsadasdddssadadsadasdddssadadsadasdddssadadsadasdddssadadsadasdddssadadsadasdddssadadsadasdddssadadsadasdddssadadsadasdddssadadsadasdddssadadsadasdddssadadsadasdddssadadsadasdddssadadsadasdddssadadsadasdddssadadsadasdddssadadsadasdddssadadsadasdddssadadsadasdddssadadsadasdddssadadsadasdddssadadsadasdddssadadsadasdddssadadsadasdddssadadsadasdddssadadsadasdddssadadsadasdddssadadsadasdddssadadsadasdddssadadsadasdddssadadsadasdddssadadsadasdddssadadsadasdddssadadsadasdddssadadsadasdddssadadsadasdddssadadsadasdddssadadsadasdddssadadsadasdddssadadsadasdddssadadsadasdddssadadsadasdddssadadsadasdddssadadsadasdddssadadsadasdddssadadsadasdddssadadsadasdddssadadsadasdddssadadsadasdddssadadsadasdddssadadsadasdddssadadsadasdddssadadsadasdddssadadsadasdddssadadsadasdddssadadsadasdddssadadsadasdddssadadsadasdddssadadsadasdddssadadsadasdddssadadsadasdddssadadsadasdddssadadsadasdddssadadsadasdddssadadsadasdddssadadsadasdddssadadsadasdddssadadsadasdddssadadsadasdddssadadsadasdddssadadsadasdddssadadsadasdddssadadsadasdddssadadsadasdddssadadsadasdddssadadsadasdddssadadsadasdddssadadsadasdddssadadsadasdddssadadsadasdddssadadsadasdddssadadsadasdddssadadsadasdddssadadsadasdddssadadsadasdddssadadsadasdddssadadsadasdddssadadsadasdddssadadsadasdddssadadsadasdddssadadsadasdddssadadsadasdddssadadsadasdddssadadsadasdddssada&quot;&#xd;
 }&#xd;
 &#xd;
-</stringProp>
-                  <stringProp name="Argument.metadata">=</stringProp>
-                </elementProp>
-              </collectionProp>
-            </elementProp>
-            <stringProp name="HTTPSampler.domain"></stringProp>
-            <stringProp name="HTTPSampler.port"></stringProp>
-            <stringProp name="HTTPSampler.protocol"></stringProp>
-            <stringProp name="HTTPSampler.contentEncoding"></stringProp>
-            <stringProp name="HTTPSampler.path">/Bank/API/1_0/RegisterOrderClientCard</stringProp>
-            <stringProp name="HTTPSampler.method">POST</stringProp>
-            <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
-            <boolProp name="HTTPSampler.auto_redirects">false</boolProp>
-            <boolProp name="HTTPSampler.use_keepalive">true</boolProp>
-            <boolProp name="HTTPSampler.DO_MULTIPART_POST">false</boolProp>
-            <stringProp name="HTTPSampler.embedded_url_re"></stringProp>
-            <stringProp name="HTTPSampler.connect_timeout"></stringProp>
-            <stringProp name="HTTPSampler.response_timeout"></stringProp>
-            <stringProp name="TestPlan.comments">https://wiki.nposapfir.ru/doku.php?id=atlas_projects:usc_api_bank_register_client_card</stringProp>
-          </HTTPSamplerProxy>
-          <hashTree/>
-          <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="200. RegisterOrderClientCard" enabled="true">
-            <boolProp name="HTTPSampler.postBodyRaw">true</boolProp>
-            <elementProp name="HTTPsampler.Arguments" elementType="Arguments">
-              <collectionProp name="Arguments.arguments">
-                <elementProp name="" elementType="HTTPArgument">
-                  <boolProp name="HTTPArgument.always_encode">false</boolProp>
-                  <stringProp name="Argument.value">{&#xd;
-  &quot;snils&quot;: &quot;65042015747&quot;,&#xd;
-  &quot;card&quot;: {&#xd;
-    &quot;mifareUID&quot;: &quot;018324E865D333&quot;,&#xd;
-    &quot;numCardESK&quot;: &quot;9620012000476230&quot;,&#xd;
-    &quot;numE-Card&quot;: &quot;200125119&quot;,&#xd;
-    &quot;dateIssue&quot;: &quot;2019-12-02&quot;,&#xd;
-    &quot;dateEnd&quot;: &quot;2022-12-02&quot;&#xd;
-  },&#xd;
-  &quot;order&quot;: {&#xd;
-    &quot;num&quot;: &quot;1235&quot;,&#xd;
-    &quot;dateTime&quot;: &quot;2020-03-19T11:35Z&quot;&#xd;
-  },&#xd;
-  &quot;accountHash&quot;: &quot;выв&quot;&#xd;
-}&#xd;
-</stringProp>
-                  <stringProp name="Argument.metadata">=</stringProp>
-                </elementProp>
-              </collectionProp>
-            </elementProp>
-            <stringProp name="HTTPSampler.domain"></stringProp>
-            <stringProp name="HTTPSampler.port"></stringProp>
-            <stringProp name="HTTPSampler.protocol"></stringProp>
-            <stringProp name="HTTPSampler.contentEncoding"></stringProp>
-            <stringProp name="HTTPSampler.path">/Bank/API/1_0/RegisterOrderClientCard</stringProp>
-            <stringProp name="HTTPSampler.method">POST</stringProp>
-            <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
-            <boolProp name="HTTPSampler.auto_redirects">false</boolProp>
-            <boolProp name="HTTPSampler.use_keepalive">true</boolProp>
-            <boolProp name="HTTPSampler.DO_MULTIPART_POST">false</boolProp>
-            <stringProp name="HTTPSampler.embedded_url_re"></stringProp>
-            <stringProp name="HTTPSampler.connect_timeout"></stringProp>
-            <stringProp name="HTTPSampler.response_timeout"></stringProp>
-            <stringProp name="TestPlan.comments">https://wiki.nposapfir.ru/doku.php?id=atlas_projects:usc_api_bank_register_client_card</stringProp>
-          </HTTPSamplerProxy>
-          <hashTree/>
-          <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="200. RegisterOrderClientCard" enabled="false">
-            <boolProp name="HTTPSampler.postBodyRaw">true</boolProp>
-            <elementProp name="HTTPsampler.Arguments" elementType="Arguments">
-              <collectionProp name="Arguments.arguments">
-                <elementProp name="" elementType="HTTPArgument">
-                  <boolProp name="HTTPArgument.always_encode">false</boolProp>
-                  <stringProp name="Argument.value">{&#xd;
-  &quot;snils&quot;: &quot;86138301805&quot;,&#xd;
-  &quot;card&quot;: {&#xd;
-    &quot;mifareUID&quot;: &quot;018324E865D333&quot;,&#xd;
-    &quot;numCardESK&quot;: &quot;9620022001251193&quot;,&#xd;
-    &quot;numE-Card&quot;: &quot;200125119&quot;,&#xd;
-    &quot;dateIssue&quot;: &quot;2019-12-02&quot;,&#xd;
-    &quot;dateEnd&quot;: &quot;2022-12-02&quot;&#xd;
-  },&#xd;
-  &quot;order&quot;: {&#xd;
-    &quot;num&quot;: &quot;1235&quot;,&#xd;
-    &quot;dateTime&quot;: &quot;2020-03-19T11:35Z&quot;&#xd;
-  },&#xd;
-  &quot;accountHash&quot;: &quot;asdasdasdaasd&quot;&#xd;
-}&#xd;
-</stringProp>
-                  <stringProp name="Argument.metadata">=</stringProp>
-                </elementProp>
-              </collectionProp>
-            </elementProp>
-            <stringProp name="HTTPSampler.domain"></stringProp>
-            <stringProp name="HTTPSampler.port"></stringProp>
-            <stringProp name="HTTPSampler.protocol"></stringProp>
-            <stringProp name="HTTPSampler.contentEncoding"></stringProp>
-            <stringProp name="HTTPSampler.path">/Bank/API/1_0/RegisterOrderClientCard</stringProp>
-            <stringProp name="HTTPSampler.method">POST</stringProp>
-            <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
-            <boolProp name="HTTPSampler.auto_redirects">false</boolProp>
-            <boolProp name="HTTPSampler.use_keepalive">true</boolProp>
-            <boolProp name="HTTPSampler.DO_MULTIPART_POST">false</boolProp>
-            <stringProp name="HTTPSampler.embedded_url_re"></stringProp>
-            <stringProp name="HTTPSampler.connect_timeout"></stringProp>
-            <stringProp name="HTTPSampler.response_timeout"></stringProp>
-            <stringProp name="TestPlan.comments">https://wiki.nposapfir.ru/doku.php?id=atlas_projects:usc_api_bank_register_client_card</stringProp>
-          </HTTPSamplerProxy>
-          <hashTree/>
-          <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="200. RegisterOrderClientCard" enabled="false">
-            <boolProp name="HTTPSampler.postBodyRaw">true</boolProp>
-            <elementProp name="HTTPsampler.Arguments" elementType="Arguments">
-              <collectionProp name="Arguments.arguments">
-                <elementProp name="" elementType="HTTPArgument">
-                  <boolProp name="HTTPArgument.always_encode">false</boolProp>
-                  <stringProp name="Argument.value">{&#xd;
-  &quot;snils&quot;: &quot;45657009807&quot;,&#xd;
-  &quot;card&quot;: {&#xd;
-    &quot;mifareUID&quot;: &quot;018324E865D333&quot;,&#xd;
-    &quot;numCardESK&quot;: &quot;9620022001251193&quot;,&#xd;
-    &quot;numE-Card&quot;: &quot;200125119&quot;,&#xd;
-    &quot;dateIssue&quot;: &quot;2019-12-02&quot;,&#xd;
-    &quot;dateEnd&quot;: &quot;2022-12-02&quot;&#xd;
-  },&#xd;
-  &quot;order&quot;: {&#xd;
-    &quot;num&quot;: &quot;1235&quot;,&#xd;
-    &quot;dateTime&quot;: &quot;2020-03-19T11:35Z&quot;&#xd;
-  }&#xd;
-}&#xd;
-</stringProp>
-                  <stringProp name="Argument.metadata">=</stringProp>
-                </elementProp>
-              </collectionProp>
-            </elementProp>
-            <stringProp name="HTTPSampler.domain"></stringProp>
-            <stringProp name="HTTPSampler.port"></stringProp>
-            <stringProp name="HTTPSampler.protocol"></stringProp>
-            <stringProp name="HTTPSampler.contentEncoding"></stringProp>
-            <stringProp name="HTTPSampler.path">/Bank/API/1_0/RegisterOrderClientCard</stringProp>
-            <stringProp name="HTTPSampler.method">POST</stringProp>
-            <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
-            <boolProp name="HTTPSampler.auto_redirects">false</boolProp>
-            <boolProp name="HTTPSampler.use_keepalive">true</boolProp>
-            <boolProp name="HTTPSampler.DO_MULTIPART_POST">false</boolProp>
-            <stringProp name="HTTPSampler.embedded_url_re"></stringProp>
-            <stringProp name="HTTPSampler.connect_timeout"></stringProp>
-            <stringProp name="HTTPSampler.response_timeout"></stringProp>
-            <stringProp name="TestPlan.comments">https://wiki.nposapfir.ru/doku.php?id=atlas_projects:usc_api_bank_register_client_card</stringProp>
-          </HTTPSamplerProxy>
-          <hashTree/>
-          <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="200. RegisterOrderClientCard" enabled="false">
-            <boolProp name="HTTPSampler.postBodyRaw">true</boolProp>
-            <elementProp name="HTTPsampler.Arguments" elementType="Arguments">
-              <collectionProp name="Arguments.arguments">
-                <elementProp name="" elementType="HTTPArgument">
-                  <boolProp name="HTTPArgument.always_encode">false</boolProp>
-                  <stringProp name="Argument.value">{&#xd;
-  &quot;snils&quot;: &quot;456570dsadaвыыфв.09807&quot;,&#xd;
-  &quot;card&quot;: {&#xd;
-    &quot;mifareUID&quot;: &quot;018324E865D333&quot;,&#xd;
-    &quot;numCardESK&quot;: &quot;9620022001251193&quot;,&#xd;
-    &quot;numE-Card&quot;: &quot;200125119&quot;,&#xd;
-    &quot;dateIssue&quot;: &quot;2019-12-02&quot;,&#xd;
-    &quot;dateEnd&quot;: &quot;2022-12-02&quot;&#xd;
-  },&#xd;
-  &quot;order&quot;: {&#xd;
-    &quot;num&quot;: &quot;1235&quot;,&#xd;
-    &quot;dateTime&quot;: &quot;2020-03-19T11:35Z&quot;&#xd;
-  },&#xd;
-&quot;accountHash&quot;: &quot;dsadasd&quot;&#xd;
-}&#xd;
 </stringProp>
                   <stringProp name="Argument.metadata">=</stringProp>
                 </elementProp>
@@ -7706,7 +7520,8 @@ https://wiki.nposapfir.ru/doku.php?id=atlas_projects:usc_api_portal_client_creat
   &quot;order&quot;: {&#xd;
     &quot;num&quot;: &quot;1235&quot;,&#xd;
     &quot;dateTime&quot;: &quot;2020-03-19T11:35Z&quot;&#xd;
-  }&#xd;
+  },&#xd;
+  &quot;accountHash&quot;: &quot;dsadasdddssada&quot;&#xd;
 }&#xd;
 </stringProp>
                   <stringProp name="Argument.metadata">=</stringProp>
@@ -10166,7 +9981,7 @@ https://wiki.nposapfir.ru/doku.php?id=atlas_projects:usc_api_portal_client_creat
             <hashTree/>
           </hashTree>
         </hashTree>
-        <GenericController guiclass="LogicControllerGui" testclass="GenericController" testname="5.    POST BlockCards" enabled="true"/>
+        <GenericController guiclass="LogicControllerGui" testclass="GenericController" testname="5.    POST BlockCards" enabled="false"/>
         <hashTree>
           <HeaderManager guiclass="HeaderPanel" testclass="HeaderManager" testname="ct" enabled="true">
             <collectionProp name="HeaderManager.headers">
@@ -10177,72 +9992,6 @@ https://wiki.nposapfir.ru/doku.php?id=atlas_projects:usc_api_portal_client_creat
             </collectionProp>
           </HeaderManager>
           <hashTree/>
-          <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="200. POST BlockCards" enabled="false">
-            <boolProp name="HTTPSampler.postBodyRaw">true</boolProp>
-            <elementProp name="HTTPsampler.Arguments" elementType="Arguments">
-              <collectionProp name="Arguments.arguments">
-                <elementProp name="" elementType="HTTPArgument">
-                  <boolProp name="HTTPArgument.always_encode">false</boolProp>
-                  <stringProp name="Argument.value">[&#xd;
-  {&#xd;
-    &quot;typeCardID&quot;: 1,&#xd;
-    &quot;cardID&quot;: &quot;9620012000250031&quot;,&#xd;
-    &quot;codeBlock&quot;: 2&#xd;
-  }&#xd;
-]</stringProp>
-                  <stringProp name="Argument.metadata">=</stringProp>
-                </elementProp>
-              </collectionProp>
-            </elementProp>
-            <stringProp name="HTTPSampler.domain"></stringProp>
-            <stringProp name="HTTPSampler.port"></stringProp>
-            <stringProp name="HTTPSampler.protocol"></stringProp>
-            <stringProp name="HTTPSampler.contentEncoding"></stringProp>
-            <stringProp name="HTTPSampler.path">/Bank/API/1_0/BlockCards</stringProp>
-            <stringProp name="HTTPSampler.method">POST</stringProp>
-            <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
-            <boolProp name="HTTPSampler.auto_redirects">false</boolProp>
-            <boolProp name="HTTPSampler.use_keepalive">true</boolProp>
-            <boolProp name="HTTPSampler.DO_MULTIPART_POST">false</boolProp>
-            <stringProp name="HTTPSampler.embedded_url_re"></stringProp>
-            <stringProp name="HTTPSampler.connect_timeout"></stringProp>
-            <stringProp name="HTTPSampler.response_timeout"></stringProp>
-            <stringProp name="TestPlan.comments">https://wiki.nposapfir.ru/doku.php?id=atlas_projects:usc_api_bank_block_cards</stringProp>
-          </HTTPSamplerProxy>
-          <hashTree/>
-          <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="200. POST BlockCards" enabled="false">
-            <boolProp name="HTTPSampler.postBodyRaw">true</boolProp>
-            <elementProp name="HTTPsampler.Arguments" elementType="Arguments">
-              <collectionProp name="Arguments.arguments">
-                <elementProp name="" elementType="HTTPArgument">
-                  <boolProp name="HTTPArgument.always_encode">false</boolProp>
-                  <stringProp name="Argument.value">[&#xd;
-  {&#xd;
-    &quot;typeCardID&quot;: 1,&#xd;
-    &quot;cardID&quot;: &quot;9620012000476230&quot;,&#xd;
-    &quot;codeBlock&quot;: 2&#xd;
-  }&#xd;
-]</stringProp>
-                  <stringProp name="Argument.metadata">=</stringProp>
-                </elementProp>
-              </collectionProp>
-            </elementProp>
-            <stringProp name="HTTPSampler.domain"></stringProp>
-            <stringProp name="HTTPSampler.port"></stringProp>
-            <stringProp name="HTTPSampler.protocol"></stringProp>
-            <stringProp name="HTTPSampler.contentEncoding"></stringProp>
-            <stringProp name="HTTPSampler.path">/Bank/API/1_0/BlockCards</stringProp>
-            <stringProp name="HTTPSampler.method">POST</stringProp>
-            <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
-            <boolProp name="HTTPSampler.auto_redirects">false</boolProp>
-            <boolProp name="HTTPSampler.use_keepalive">true</boolProp>
-            <boolProp name="HTTPSampler.DO_MULTIPART_POST">false</boolProp>
-            <stringProp name="HTTPSampler.embedded_url_re"></stringProp>
-            <stringProp name="HTTPSampler.connect_timeout"></stringProp>
-            <stringProp name="HTTPSampler.response_timeout"></stringProp>
-            <stringProp name="TestPlan.comments">https://wiki.nposapfir.ru/doku.php?id=atlas_projects:usc_api_bank_block_cards</stringProp>
-          </HTTPSamplerProxy>
-          <hashTree/>
           <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="200. POST BlockCards" enabled="true">
             <boolProp name="HTTPSampler.postBodyRaw">true</boolProp>
             <elementProp name="HTTPsampler.Arguments" elementType="Arguments">
@@ -10252,7 +10001,7 @@ https://wiki.nposapfir.ru/doku.php?id=atlas_projects:usc_api_portal_client_creat
                   <stringProp name="Argument.value">[&#xd;
   {&#xd;
     &quot;typeCardID&quot;: 1,&#xd;
-    &quot;cardID&quot;: &quot;9620022001251193&quot;,&#xd;
+    &quot;cardID&quot;: &quot;9620012000250031&quot;,&#xd;
     &quot;codeBlock&quot;: 99&#xd;
   }&#xd;
 ]</stringProp>
@@ -11021,7 +10770,7 @@ https://wiki.nposapfir.ru/doku.php?id=atlas_projects:usc_api_portal_client_creat
             </hashTree>
           </hashTree>
         </hashTree>
-        <GenericController guiclass="LogicControllerGui" testclass="GenericController" testname="TestCasesRegs" enabled="false"/>
+        <GenericController guiclass="LogicControllerGui" testclass="GenericController" testname="TestCasesRegs" enabled="true"/>
         <hashTree>
           <HeaderManager guiclass="HeaderPanel" testclass="HeaderManager" testname="ct" enabled="true">
             <collectionProp name="HeaderManager.headers">
@@ -11317,63 +11066,6 @@ https://wiki.nposapfir.ru/doku.php?id=atlas_projects:usc_api_portal_client_creat
 https://wiki.nposapfir.ru/doku.php?id=atlas_projects:usc_api_portal_client_create</stringProp>
           </HTTPSamplerProxy>
           <hashTree/>
-          <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="RegisterClient Тестовый пользователь для кейсов. Нефинансовая карта. Активная. Без номера телефона, электронной почты." enabled="false">
-            <boolProp name="HTTPSampler.postBodyRaw">true</boolProp>
-            <elementProp name="HTTPsampler.Arguments" elementType="Arguments">
-              <collectionProp name="Arguments.arguments">
-                <elementProp name="" elementType="HTTPArgument">
-                  <boolProp name="HTTPArgument.always_encode">false</boolProp>
-                  <stringProp name="Argument.value">{ &#xd;
-&quot;firstName&quot;: &quot;выфвфыапв&quot;, &#xd;
-&quot;lastName&quot;: &quot;выфвфыапв&quot;, &#xd;
-&quot;middleName&quot;: &quot;выфвфыапв&quot;, &#xd;
-&quot;birthDate&quot;: &quot;12.12.1992&quot;, &#xd;
-&quot;birthPlace&quot;: &quot;Свердловская обл. г. Екатеринбург&quot;, &#xd;
-&quot;sex&quot;: 1, &#xd;
-&quot;contacts&quot;: { &#xd;
-&quot;address&quot;: &quot;Екатеринбург, ул. Гоголя, д. 36, оф. 900&quot;, &#xd;
-&quot;mobilePhone&quot;: &quot;+79231154888&quot;, &#xd;
-&quot;email&quot;: &quot;424324223@abcd.com&quot; &#xd;
-}, &#xd;
-&quot;events&quot;: { &#xd;
-&quot;isSMS&quot;: true, &#xd;
-&quot;isEMail&quot;: false &#xd;
-}, &#xd;
-&quot;docs&quot;: [ &#xd;
-{ &#xd;
-&quot;docType&quot;: 1, &#xd;
-&quot;num&quot;: &quot;8844552378&quot;, &#xd;
-&quot;date&quot;: &quot;08.07.2016&quot;, &#xd;
-&quot;codeOrg&quot;: &quot;123456&quot;, &#xd;
-&quot;org&quot;: &quot;ОТДЕЛЕНИЕМ УФМС РОССИИ ПО СВЕРДЛОВСКОЙ ОБЛАСТИ ГОР. ЕКАТЕРИНБУРГ&quot;, &#xd;
-&quot;addressReg&quot;: &quot;Тестовый сервер&quot;&#xd;
-}], &#xd;
-&quot;snils&quot;: &quot;45657009807&quot; &#xd;
-} &#xd;
-</stringProp>
-                  <stringProp name="Argument.metadata">=</stringProp>
-                </elementProp>
-              </collectionProp>
-            </elementProp>
-            <stringProp name="HTTPSampler.domain"></stringProp>
-            <stringProp name="HTTPSampler.port"></stringProp>
-            <stringProp name="HTTPSampler.protocol"></stringProp>
-            <stringProp name="HTTPSampler.contentEncoding">utf-8</stringProp>
-            <stringProp name="HTTPSampler.path">/Bank/API/2_0/RegisterClient</stringProp>
-            <stringProp name="HTTPSampler.method">POST</stringProp>
-            <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
-            <boolProp name="HTTPSampler.auto_redirects">false</boolProp>
-            <boolProp name="HTTPSampler.use_keepalive">true</boolProp>
-            <boolProp name="HTTPSampler.DO_MULTIPART_POST">false</boolProp>
-            <stringProp name="HTTPSampler.embedded_url_re"></stringProp>
-            <stringProp name="HTTPSampler.proxyHost">127.0.0.1</stringProp>
-            <stringProp name="HTTPSampler.proxyPort">8888</stringProp>
-            <stringProp name="HTTPSampler.connect_timeout"></stringProp>
-            <stringProp name="HTTPSampler.response_timeout"></stringProp>
-            <stringProp name="TestPlan.comments">Регистрация клиента
-https://wiki.nposapfir.ru/doku.php?id=atlas_projects:usc_api_portal_client_create</stringProp>
-          </HTTPSamplerProxy>
-          <hashTree/>
           <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="RegisterOrderClientCard Тестовый пользователь для кейсов. Финансовая карта. Активная." enabled="false">
             <boolProp name="HTTPSampler.postBodyRaw">true</boolProp>
             <elementProp name="HTTPsampler.Arguments" elementType="Arguments">
@@ -11622,7 +11314,7 @@ https://wiki.nposapfir.ru/doku.php?id=atlas_projects:usc_api_portal_client_creat
             <stringProp name="TestPlan.comments">https://wiki.nposapfir.ru/doku.php?id=atlas_projects:usc_api_bank_block_cards</stringProp>
           </HTTPSamplerProxy>
           <hashTree/>
-          <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="BlockCards Тестовый пользователь для кейсов. Нефинансовая карта. Заблокированная" enabled="false">
+          <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="BlockCards Тестовый пользователь для кейсов. Нефинансовая карта. Заблокированная" enabled="true">
             <boolProp name="HTTPSampler.postBodyRaw">true</boolProp>
             <elementProp name="HTTPsampler.Arguments" elementType="Arguments">
               <collectionProp name="Arguments.arguments">
@@ -21000,7 +20692,7 @@ https://wiki.nposapfir.ru/doku.php?id=atlas_projects:usc_api_portal_client_creat
             <hashTree/>
           </hashTree>
         </hashTree>
-        <GenericController guiclass="LogicControllerGui" testclass="GenericController" testname="3. GET Status" enabled="false"/>
+        <GenericController guiclass="LogicControllerGui" testclass="GenericController" testname="3. GET Status" enabled="true"/>
         <hashTree>
           <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="200. GET Status" enabled="true">
             <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" testname="User Defined Variables" enabled="true">
@@ -24987,7 +24679,7 @@ https://wiki.nposapfir.ru/doku.php?id=atlas_projects:usc_api_portal_client_creat
           </hashTree>
         </hashTree>
       </hashTree>
-      <ThreadGroup guiclass="ThreadGroupGui" testclass="ThreadGroup" testname="5. lk" enabled="true">
+      <ThreadGroup guiclass="ThreadGroupGui" testclass="ThreadGroup" testname="5. lk" enabled="false">
         <stringProp name="TestPlan.comments">БАНК</stringProp>
         <stringProp name="ThreadGroup.on_sample_error">continue</stringProp>
         <elementProp name="ThreadGroup.main_controller" elementType="LoopController" guiclass="LoopControlPanel" testclass="LoopController" testname="Loop Controller" enabled="true">
@@ -29140,6 +28832,25 @@ https://wiki.nposapfir.ru/doku.php?id=atlas_projects:usc_api_portal_client_creat
             <stringProp name="HTTPSampler.response_timeout"></stringProp>
           </HTTPSamplerProxy>
           <hashTree/>
+          <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="6. GET AccuralHistory ???" enabled="false">
+            <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" testname="User Defined Variables" enabled="true">
+              <collectionProp name="Arguments.arguments"/>
+            </elementProp>
+            <stringProp name="HTTPSampler.domain"></stringProp>
+            <stringProp name="HTTPSampler.port"></stringProp>
+            <stringProp name="HTTPSampler.protocol"></stringProp>
+            <stringProp name="HTTPSampler.contentEncoding"></stringProp>
+            <stringProp name="HTTPSampler.path">/HPA/API/1_0/AccuralHistory</stringProp>
+            <stringProp name="HTTPSampler.method">GET</stringProp>
+            <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
+            <boolProp name="HTTPSampler.auto_redirects">false</boolProp>
+            <boolProp name="HTTPSampler.use_keepalive">true</boolProp>
+            <boolProp name="HTTPSampler.DO_MULTIPART_POST">false</boolProp>
+            <stringProp name="HTTPSampler.embedded_url_re"></stringProp>
+            <stringProp name="HTTPSampler.connect_timeout"></stringProp>
+            <stringProp name="HTTPSampler.response_timeout"></stringProp>
+          </HTTPSamplerProxy>
+          <hashTree/>
           <GenericController guiclass="LogicControllerGui" testclass="GenericController" testname="7. POST Requests" enabled="false"/>
           <hashTree>
             <HeaderManager guiclass="HeaderPanel" testclass="HeaderManager" testname="ct mp/fd" enabled="false">
@@ -29395,25 +29106,6 @@ https://wiki.nposapfir.ru/doku.php?id=atlas_projects:usc_api_portal_client_creat
             <stringProp name="HTTPSampler.embedded_url_re"></stringProp>
             <stringProp name="HTTPSampler.proxyHost">127.0.0.1</stringProp>
             <stringProp name="HTTPSampler.proxyPort">8888</stringProp>
-            <stringProp name="HTTPSampler.connect_timeout"></stringProp>
-            <stringProp name="HTTPSampler.response_timeout"></stringProp>
-          </HTTPSamplerProxy>
-          <hashTree/>
-          <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="6. GET AccuralHistory ???" enabled="false">
-            <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" testname="User Defined Variables" enabled="true">
-              <collectionProp name="Arguments.arguments"/>
-            </elementProp>
-            <stringProp name="HTTPSampler.domain"></stringProp>
-            <stringProp name="HTTPSampler.port"></stringProp>
-            <stringProp name="HTTPSampler.protocol"></stringProp>
-            <stringProp name="HTTPSampler.contentEncoding"></stringProp>
-            <stringProp name="HTTPSampler.path">/HPA/API/1_0/AccuralHistory</stringProp>
-            <stringProp name="HTTPSampler.method">GET</stringProp>
-            <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
-            <boolProp name="HTTPSampler.auto_redirects">false</boolProp>
-            <boolProp name="HTTPSampler.use_keepalive">true</boolProp>
-            <boolProp name="HTTPSampler.DO_MULTIPART_POST">false</boolProp>
-            <stringProp name="HTTPSampler.embedded_url_re"></stringProp>
             <stringProp name="HTTPSampler.connect_timeout"></stringProp>
             <stringProp name="HTTPSampler.response_timeout"></stringProp>
           </HTTPSamplerProxy>
@@ -29788,7 +29480,7 @@ https://wiki.nposapfir.ru/doku.php?id=atlas_projects:usc_api_portal_client_creat
             <stringProp name="HTTPSampler.port"></stringProp>
             <stringProp name="HTTPSampler.protocol"></stringProp>
             <stringProp name="HTTPSampler.contentEncoding"></stringProp>
-            <stringProp name="HTTPSampler.path">/HPA/API/1_0/Polls/4</stringProp>
+            <stringProp name="HTTPSampler.path">/HPA/API/1_0/Polls/3</stringProp>
             <stringProp name="HTTPSampler.method">GET</stringProp>
             <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
             <boolProp name="HTTPSampler.auto_redirects">false</boolProp>
@@ -29801,35 +29493,6 @@ https://wiki.nposapfir.ru/doku.php?id=atlas_projects:usc_api_portal_client_creat
           <hashTree/>
           <GenericController guiclass="LogicControllerGui" testclass="GenericController" testname="18. POST Polls ???" enabled="false"/>
           <hashTree>
-            <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="POST Polls 200" enabled="false">
-              <boolProp name="HTTPSampler.postBodyRaw">true</boolProp>
-              <elementProp name="HTTPsampler.Arguments" elementType="Arguments">
-                <collectionProp name="Arguments.arguments">
-                  <elementProp name="" elementType="HTTPArgument">
-                    <boolProp name="HTTPArgument.always_encode">false</boolProp>
-                    <stringProp name="Argument.value">{&#xd;
-  &quot;pollId&quot;: 4,&#xd;
-  &quot;answers&quot;: [{&quot;id&quot;:62}, {&quot;id&quot;:69}, {&quot;id&quot;:74}]&#xd;
-}</stringProp>
-                    <stringProp name="Argument.metadata">=</stringProp>
-                  </elementProp>
-                </collectionProp>
-              </elementProp>
-              <stringProp name="HTTPSampler.domain"></stringProp>
-              <stringProp name="HTTPSampler.port"></stringProp>
-              <stringProp name="HTTPSampler.protocol"></stringProp>
-              <stringProp name="HTTPSampler.contentEncoding"></stringProp>
-              <stringProp name="HTTPSampler.path">/HPA/API/1_0/Polls</stringProp>
-              <stringProp name="HTTPSampler.method">POST</stringProp>
-              <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
-              <boolProp name="HTTPSampler.auto_redirects">false</boolProp>
-              <boolProp name="HTTPSampler.use_keepalive">true</boolProp>
-              <boolProp name="HTTPSampler.DO_MULTIPART_POST">false</boolProp>
-              <stringProp name="HTTPSampler.embedded_url_re"></stringProp>
-              <stringProp name="HTTPSampler.connect_timeout"></stringProp>
-              <stringProp name="HTTPSampler.response_timeout"></stringProp>
-            </HTTPSamplerProxy>
-            <hashTree/>
             <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="POST Polls 200" enabled="true">
               <boolProp name="HTTPSampler.postBodyRaw">true</boolProp>
               <elementProp name="HTTPsampler.Arguments" elementType="Arguments">
@@ -29837,8 +29500,8 @@ https://wiki.nposapfir.ru/doku.php?id=atlas_projects:usc_api_portal_client_creat
                   <elementProp name="" elementType="HTTPArgument">
                     <boolProp name="HTTPArgument.always_encode">false</boolProp>
                     <stringProp name="Argument.value">{&#xd;
-  &quot;pollId&quot;: 4,&#xd;
-  &quot;answers&quot;: [{&quot;id&quot;:4}]&#xd;
+  &quot;pollId&quot;: 47,&#xd;
+  &quot;answers&quot;: [{&quot;id&quot;:62}, {&quot;id&quot;:69}, {&quot;id&quot;:74}]&#xd;
 }</stringProp>
                     <stringProp name="Argument.metadata">=</stringProp>
                   </elementProp>
